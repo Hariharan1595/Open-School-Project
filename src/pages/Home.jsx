@@ -24,15 +24,15 @@ const Home = () => {
        
           <Card1
             title={serviceData[0].title}
-            image={serviceData[0].image}
+            image={board}
             content={serviceData[0].content}
-            key={1}
+            
           />
         <Card1
             title={serviceData[1].title}
-            image={serviceData[1].image}
+            image={students}
             content={serviceData[1].content}
-            key={2}
+      
           />
         
         
