@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
         <img
-          src="./assets/images/Ellipse 1.png"
+          src="../assets/images/Ellipse 1.png"
           className="foot-logo"
           width={123}
           height={110}
