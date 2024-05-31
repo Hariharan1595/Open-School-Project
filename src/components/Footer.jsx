@@ -2,6 +2,7 @@ import React from 'react'
 import "./Footer.css"
 import { footerLinks } from '../data';
 import FootLink from './FootLink';
+import logo from '../assets/images/Ellipse 1.png';
 
 
 const Footer = () => {
@@ -30,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
         <img
-          src="../assets/images/Ellipse 1.png"
+          src={logo}
           className="foot-logo"
           width={123}
           height={110}
