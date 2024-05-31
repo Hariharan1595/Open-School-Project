@@ -4,6 +4,8 @@ import "./Home.css";
 import Container from "../assets/images/Container.png";
 import Card1 from "../components/Card1";
 import { serviceData } from "../data";
+import students from "../assets/images/students.png";
+import board from "../assets/images/board.png";
 
 const Home = () => {
   return (
