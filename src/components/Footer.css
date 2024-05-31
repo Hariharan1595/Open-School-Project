@@ -1,8 +1,11 @@
 .footer-section {
+  border-width: 2px 0px 0px 0px;
+  border-style: solid;
   padding: 80px 80px 20px 80px;
   font-family: "outfit", sans-serif;
   display: flex;
   flex-direction: column;
+  border-color: black;
 }
 .footer1 {
   display: flex;
