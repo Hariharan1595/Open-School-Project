@@ -25,10 +25,9 @@
 .benefits-section {
   display: flex;
   justify-content: center;
-  padding:0px 30px;
-  
+  padding: 0px 30px;
 }
-.benefits-section img{
+.benefits-section img {
   margin: 40px 0px 15px 0px;
 }
 .service-section {
@@ -71,7 +70,7 @@
 }
 .mail-box {
   width: 563px;
-  height: 81px;
+  height: 71px;
   padding-left: 40px;
   border-radius: 20px;
   outline: none;
@@ -85,14 +84,13 @@
   border-radius: 25px;
   padding: 20px;
   width: 153px;
-  height: 81px;
+  height: 71px;
   color: white;
   font-weight: 700;
   border: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
@@ -100,197 +98,165 @@
     font-size: 40px;
     -webkit-text-stroke: 1.3px black;
   }
-  .benefits-section img{
-  
-  margin: 30px 0px 15px 0px;
-}
-.service-section {
-  padding: 65px 20px;
-  
-}
-.newsletter {
-  width: 80%;
-}
-.box-title {
-  font-size: 35px;
-  font-weight: 700;
-}
-
- 
-.section-para {
-  font-size: 20px;
- 
-}
-.mail-box {
-  width: 513px;
-  height: 71px;
-  padding-left: 40px;
-  
-  font-size: 20px;
-  border: none;
- 
-}
-.submit-button {
-  height: 71px;
-  font-size: 20px;
-  border-radius: 23px;
- margin-left: 20px;
-  width: 150px;
-  
-}
-
-
-}
-@media (max-width:1165px){
+  .benefits-section img {
+    margin: 30px 0px 15px 0px;
+  }
   .service-section {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap:25px;
-   padding: 45px 5px;
-  
-}
+    padding: 65px 20px;
+  }
+  .newsletter {
+    width: 80%;
+  }
+  .box-title {
+    font-size: 35px;
+    font-weight: 700;
+  }
 
+  .section-para {
+    font-size: 20px;
+  }
+  .mail-box {
+    width: 513px;
+    height: 71px;
+    padding-left: 40px;
+
+    font-size: 20px;
+    border: none;
+  }
+  .submit-button {
+    height: 71px;
+    font-size: 20px;
+    border-radius: 23px;
+    margin-left: 20px;
+    width: 150px;
+  }
+}
+@media (max-width: 1165px) {
+  .service-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 45px 5px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .heading {
     font-size: 25px;
     -webkit-text-stroke: 0.9px black;
   }
-  .benefits-section img{
-  
-  margin: 20px 0px 10px 0px;
-}
-.newsletter {
-  width: 80%;
-  
-}
-.box-title {
-  font-size: 35px;
-  font-weight: 700;
-}
+  .benefits-section img {
+    margin: 20px 0px 10px 0px;
+  }
+  .newsletter {
+    width: 80%;
+  }
+  .box-title {
+    font-size: 35px;
+    font-weight: 700;
+  }
 
- 
-.section-para {
-  font-size: 20px;
- 
-}
-.mail-box {
-  width: 513px;
-  height: 61px;
-  padding-left: 40px;
-  
-  font-size: 20px;
-  border: none;
- 
-}
-.submit-button {
-  height: 61px;
-  font-size: 20px;
-  border-radius: 23px;
- margin-left: 20px;
-  width: 150px;
-  
-}
+  .section-para {
+    font-size: 20px;
+  }
+  .mail-box {
+    width: 513px;
+    height: 61px;
+    padding-left: 40px;
 
+    font-size: 20px;
+    border: none;
+  }
+  .submit-button {
+    height: 61px;
+    font-size: 20px;
+    border-radius: 23px;
+    margin-left: 20px;
+    width: 150px;
+  }
 }
 @media (max-width: 767px) {
   .heading {
     font-size: 15px;
     -webkit-text-stroke: 0.5px black;
   }
- 
-  .benefits-section img{
-  
-  margin: 15px 0px 5px 0px;
-}
-.newsletter {
-  width: 80%;
-  height: 100%;
-  padding: 20px ;
-}
-.sub-section{
-  padding-top: 20px;
-  flex-direction: column;
-  align-items: start;
-  gap: 20px;
-}
-.box-title {
-  font-size: 25px;
-  font-weight: 700;
-}
 
- 
-.section-para {
-  font-size: 15px;
- 
-}
-.mail-box {
-  width: 90%;
-  height: 51px;
-  padding-left: 20px;
-  
-  font-size: 15px;
-  border: none;
- 
-}
-.submit-button {
-  height: 51px;
-  font-size: 15px;
-  border-radius: 20px;
-  
-  width: 100px;
-  overflow-y: hidden;
-}
-
-
- 
-
-
-
-  
-}
-@media (max-width: 425px) {
-  .service-section{
- padding: 20px 0px;
+  .benefits-section img {
+    margin: 15px 0px 5px 0px;
   }
   .newsletter {
-  width: 80%;
-  height: 100%;
-  padding: 20px ;
-}
-.sub-section{
-  padding-top: 20px;
-  flex-direction: column;
-  align-items: start;
-  gap: 20px;
-}
-.box-title {
-  font-size: 25px;
-  font-weight: 700;
-}
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+  }
+  .sub-section {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .box-title {
+    font-size: 25px;
+    font-weight: 700;
+  }
 
- 
-.section-para {
-  font-size: 15px;
- 
+  .section-para {
+    font-size: 15px;
+  }
+  .mail-box {
+    width: 90%;
+    height: 51px;
+    padding-left: 20px;
+
+    font-size: 15px;
+    border: none;
+  }
+  .submit-button {
+    height: 51px;
+    font-size: 15px;
+    border-radius: 20px;
+
+    width: 100px;
+    overflow-y: hidden;
+  }
 }
-.mail-box {
-  width: 80%;
-  height: 41px;
-  
-  border-radius: 10px;
-  font-size: 15px;
-  border: none;
- 
-}
-.submit-button {
-  height: 41px;
-  font-size: 15px;
-  border-radius: 10px;
- 
-  width: 100px;
-  overflow-y: hidden;
-}
-  
+@media (max-width: 425px) {
+  .service-section {
+    padding: 20px 0px;
+  }
+  .newsletter {
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+  }
+  .sub-section {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .box-title {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .section-para {
+    font-size: 15px;
+  }
+  .mail-box {
+    width: 80%;
+    height: 41px;
+
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+  }
+  .submit-button {
+    height: 41px;
+    font-size: 15px;
+    border-radius: 10px;
+
+    width: 100px;
+    overflow-y: hidden;
+  }
 }

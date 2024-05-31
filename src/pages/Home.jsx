@@ -21,30 +21,29 @@ const Home = () => {
         <img src={Container} className="benefits-img" />
       </div>
       <div className="service-section">
-       
-          <Card1
-            title={serviceData[0].title}
-            image={board}
-            content={serviceData[0].content}
-            
-          />
         <Card1
-            title={serviceData[1].title}
-            image={students}
-            content={serviceData[1].content}
-      
-          />
-        
-        
-       
+          title={serviceData[0].title}
+          image={board}
+          content={serviceData[0].content}
+        />
+        <Card1
+          title={serviceData[1].title}
+          image={students}
+          content={serviceData[1].content}
+        />
       </div>
       <div className="newsletter">
         <h1 className="box-title">Subscribe to get update</h1>
         <div className="sub-section">
           <p className="section-para">
-            30k Students Registered for this,<br></br> Subscribe for more information
+            30k Students Registered for this,<br></br> Subscribe for more
+            information
           </p>
-          <input type="email" className="mail-box" placeholder="Enter you email-ID.."></input>
+          <input
+            type="email"
+            className="mail-box"
+            placeholder="Enter you email-ID.."
+          ></input>
           <button type="button" className="submit-button">
             Submit
           </button>
