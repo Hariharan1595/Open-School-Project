@@ -22,7 +22,7 @@ const Home = () => {
         {serviceData.map((card, index) => (
           <Card1
             title={card.title}
-            image={card.image}
+            image={{card.image}}
             content={card.content}
             key={index}
           />
