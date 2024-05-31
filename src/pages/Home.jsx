@@ -19,14 +19,22 @@ const Home = () => {
         <img src={Container} className="benefits-img" />
       </div>
       <div className="service-section">
-        {serviceData.map((card, index) => (
+       
           <Card1
-            title={card.title}
-            image={{card.image}}
-            content={card.content}
-            key={index}
+            title={serviceData[0].title}
+            image={serviceData[0].image}
+            content={serviceData[0].content}
+            key={1}
           />
-        ))}
+        <Card1
+            title={serviceData[1].title}
+            image={serviceData[1].image}
+            content={serviceData[1].content}
+            key={2}
+          />
+        
+        
+       
       </div>
       <div className="newsletter">
         <h1 className="box-title">Subscribe to get update</h1>
