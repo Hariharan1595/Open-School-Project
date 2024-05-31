@@ -1,12 +1,12 @@
 export const serviceData = [
   {
-    image: "src/assets/images/board.png",
+    image: "../assets/images/board.png",
     title: "EDUCATION IMPORTANT",
     content:
       "We believe in the power of play to foster creativity,problem-solving skills, and imagination.",
   },
   {
-    image: "src/assets/images/students.png",
+    image: "./src/assets/images/students.png",
     title: "TEACHING FACULTY",
     content:
       "We believe in the power of play to foster creativity,problem-solving skills, and imagination.",
