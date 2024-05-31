@@ -1,0 +1,121 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #49b3ff;
+  font-family: "Jockey One", sans-serif;
+  height: 140px;
+  width: 100%;
+  padding-left: 44px;
+  gap: 30px;
+}
+
+/*  */
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 6.5rem;
+  flex: content;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.navbar-links li a:hover {
+  color: black;
+}
+.message-box {
+  min-height: 75px;
+  font-family: "Jockey One", sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.message {
+  font-size: 30px;
+  padding: 15px 0px;
+  letter-spacing: 3.5px;
+}
+
+.blue-text a {
+  text-decoration: none;
+  color: #49b3ff;
+}
+.blue-text a:hover {
+  color: black;
+}
+
+@media (min-width: 1024px) and (max-width: 1435px) {
+  .navbar-links {
+    display: flex;
+    gap: 3rem;
+  }
+  .navbar-links li a {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  .navbar-links li a {
+    font-size: 20px;
+  }
+  .navbar {
+    gap: 20px;
+    padding-left: 20px;
+    height: 100px;
+  }
+  .logo {
+    width: 80px;
+  }
+    .message {
+    font-size: 18px;
+    letter-spacing: 2.5px;
+  }
+  .message-box {
+  min-height: 55px;
+}
+}
+@media (max-width: 767px) {
+  .logo {
+    width: 80px;
+  }
+  .navbar {
+    padding-left: 20px;
+    height: 100px;
+  }
+  .navbar-links {
+    display: none;
+  }
+  .message {
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    padding: 15px 15px;
+  }
+  .message-box {
+  min-height: 55px;
+}
+}
+@media (max-width: 425px) {
+  .logo {
+    width: 50px;
+  }
+  .navbar {
+    padding-left: 10px;
+    height: 60px;
+  }
+  .message {
+    font-size: 15px;
+   
+    letter-spacing: 2.5px;
+  }
+  .message-box {
+  min-height: 40px;
+}
+}

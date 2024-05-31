@@ -1,0 +1,84 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 689px;
+  height: 607px;
+  border-radius: 20px;
+  border-width: 5px 10px 10px 5px; /* Top, Right, Bottom, Left */
+  border-style: solid; /* Required for the border to appear */
+  border-color: black;
+  background-color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card-image {
+  width: 100%;
+  width: 623px;
+  height: 360px;
+}
+.card-content {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  font-family: "Outfit", sans-serif;
+}
+.card-para {
+  font-size: 20px;
+}
+
+@media (max-width: 1435px) {
+  .card {
+    width: 539px;
+    height: 457px;
+    border-radius: 20px;
+  }
+  .card-image {
+    width: 473px;
+    height: 260px;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    width: 369px;
+    height: 357px;
+    border-radius: 20px;
+    border-width: 2px 7px 7px 2px
+  }
+  .card-image {
+    width: 303px;
+    height: 210px;
+  }
+  .card-content {
+    gap: 15px;
+  }
+  .card-title{
+    font-size:18px;
+  }
+  .card-para {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 560px) {
+  .card {
+    width: 239px;
+    height: 257px;
+    border-radius: 20px;
+     border-width: 2px 5px 5px 2px
+  }
+  .card-image {
+    width: 193px;
+    height: 140px;
+  }
+  .card-content {
+    gap: 8px;
+  }
+  .card-title{
+    font-size:10px;
+  }
+  .card-para {
+    font-size: 9px;
+  }
+}
