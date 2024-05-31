@@ -16,19 +16,19 @@ const Navbar = () => {
             <a href="/">HOME</a>
           </li>
           <li>
-            <a href="/academics">ACADEMICS</a>
+            <a href="academics">ACADEMICS</a>
           </li>
           <li>
-            <a href="/admissions">ADMISSION</a>
+            <a href="admissions">ADMISSION</a>
           </li>
           <li>
-            <a href="/student-life">STUDENT LIFE</a>
+            <a href="student-life">STUDENT LIFE</a>
           </li>
           <li>
-            <a href="/services">SERVICES</a>
+            <a href="services">SERVICES</a>
           </li>
           <li>
-            <a href="/about">ABOUT US</a>
+            <a href="about">ABOUT US</a>
           </li>
           <li>
             <a href="contact">CONTACT US</a>
