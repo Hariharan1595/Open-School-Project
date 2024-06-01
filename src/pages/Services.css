@@ -1,10 +1,11 @@
 /* Default styles (for large screens or desktops) */
-.title {
+.service-title {
   font-family: "Jockey One", sans-serif;
   font-size: 65px;
   font-weight: 400;
   text-align: center;
   margin: 30px;
+  color: #00b3ff;
 }
 
 .boxes-section {
@@ -17,7 +18,7 @@
   margin: 50px auto;
   max-width: 1300px;
 }
-.box {
+.service-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +82,7 @@
 /* Mobile Phones */
 @media only screen and (max-width: 480px) {
   /* Additional styles for mobile phones */
-  .box {
+  .service-box {
     width: 200px;
     height: 196px;
     border-radius: 9px;
@@ -95,7 +96,7 @@
     gap: 15px;
     grid-template-columns: 1fr;
   }
-  .title {
+  .service-title {
     font-size: 30px;
     margin: 0px;
   }
@@ -130,7 +131,7 @@
 
 @media (max-width: 320px) {
   /* Additional styles for small mobile phones */
-  .box {
+  .service-box {
     max-width: 150px;
     height: 146px;
     border-radius: 9px;
@@ -144,7 +145,7 @@
     gap: 15px;
     grid-template-columns: 1fr;
   }
-  .title {
+  .service-title {
     font-size: 25px;
     margin: 0px;
   }
@@ -171,13 +172,12 @@
   .customer-img {
     width: 40%;
   }
-  
 }
 
 /* Tablets in Portrait mode */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   /* Additional styles for tablets in portrait mode */
-  .box {
+  .service-box {
     width: 170px;
     height: 146px;
     border-radius: 9px;
@@ -190,7 +190,7 @@
     margin: 20px auto;
     gap: 10px;
   }
-  .title {
+  .service-title {
     font-size: 30px;
     margin: 20px;
   }
@@ -216,7 +216,7 @@
 /* Tablets in Landscape mode */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* Additional styles for tablets in landscape mode */
-  .box {
+  .service-box {
     width: 250px;
     height: 266px;
     border-radius: 11px;
@@ -227,7 +227,7 @@
     max-width: 80%;
     margin: 30px auto;
   }
-  .title {
+  .service-title {
     font-size: 50px;
     margin: 20px;
   }
@@ -252,7 +252,7 @@
 /* Small Laptops */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
   /* Additional styles for small laptops */
-  .box {
+  .service-box {
     width: 350px;
     height: 356px;
     border-radius: 13px;
@@ -262,7 +262,7 @@
   .boxes-section {
     max-width: 80%;
   }
-  .title {
+  .service-title {
     font-size: 60px;
   }
   .box-title {

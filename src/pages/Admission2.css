@@ -58,13 +58,13 @@
   left: 0px;
 }
 
-.subsection {
-  margin: 0px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+.subsection{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 .para1 {
   max-width: 499px;
@@ -74,15 +74,15 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  text-align: center;
+  text-align:center;
 }
-.process {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  margin: 0px auto;
-  padding: 40px;
+.process{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    padding: 40px;
 }
 
 .newsletter {
@@ -176,7 +176,7 @@
   }
   .admission-container {
     gap: 0px;
-    padding: 0 20px;
+    padding:0 20px;
     justify-items: start;
   }
   .title-box {
@@ -190,19 +190,20 @@
   .para {
     max-width: 499px;
 
+
     font-size: 15px;
   }
   .para1 {
-    max-width: 499px;
+  max-width: 499px;
 
-    font-family: "outfit", sans-serif;
+  font-family: "outfit", sans-serif;
 
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-  }
-  .newsletter {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align:center;
+}
+.newsletter {
     width: 80%;
     height: 100%;
     padding: 20px;
@@ -238,50 +239,52 @@
     overflow-y: hidden;
   }
 }
-@media (min-width: 607px) {
-  .banner {
-    display: none;
-  }
+@media (min-width:607px){
+    .banner{
+        display: none;
+    }
 }
-@media (min-width: 1441px) {
-  .admission-container {
-    max-width: 1288px;
-    margin: 50px auto;
-  }
+@media (min-width:1441px){
+    .admission-container{
+        max-width: 1288px;
+        margin: 50px auto;
+    }
 }
-@media (max-width: 606.99px) {
-  .subsection {
-    gap: 7px;
-  }
-  .admission-container {
-    display: none;
-  }
-  .banner {
-    display: flex;
-    width: 90%;
-    margin: 20px auto;
-  }
-  .box {
+@media (max-width:606.99px){
+    .subsection{
+        gap: 7px;
+    }
+    .admission-container{
+        display: none;
+    }
+    .banner{
+        display: flex;
+        width:90%;
+        margin:20px auto;
+    }
+   .box {
     width: 50px;
     height: 15px;
     padding: 3px 7px 3px 7px;
     font-size: 10px;
+
   }
-  .title {
+  .title{
     font-size: 25px;
   }
   .para1 {
-    max-width: 499px;
-    font-family: "outfit", sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 16px;
-    text-align: center;
-    padding: 0px 30px;
-  }
+  max-width: 499px;
+  font-family: "outfit", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align:center;
+  padding: 0px 30px;
+}
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
+
   .newsletter {
     width: 80%;
   }
@@ -311,6 +314,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
   .newsletter {
     width: 80%;
   }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Admission.css";
+import "./Admission2.css";
 
 import design from "../assets/icons/Abstract Design.png";
 import banner from "../assets/images/admission-container.png";
