@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/Ellipse 1.png";
 import "./Navbar.css";
+import mobile_menu from "../assets/images/menu-icon.png";
+import close_icon from "../assets/images/close-icon.jpeg";
 
 const Navbar = () => {
+  const [mobileMenu, setMobileMenu] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenu(!mobileMenu);
+  };
+
   return (
     <>
       <nav className="navbar">
@@ -11,8 +19,23 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} className="logo" alt="Logo" />
           </Link>
+          {mobileMenu ? (
+            <img
+              src={close_icon}
+              alt="close icon"
+              className="menu"
+              onClick={toggleMobileMenu}
+            />
+          ) : (
+            <img
+              src={mobile_menu}
+              alt="menu icon"
+              className="menu"
+              onClick={toggleMobileMenu}
+            />
+          )}
         </div>
-        <ul className="navbar-links">
+        <ul id="ani" className={mobileMenu ? "mobile-view" : "navbar-links"}>
           <li>
             <Link to="/">HOME</Link>
           </li>
