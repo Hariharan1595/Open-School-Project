@@ -1,6 +1,6 @@
 import React from "react";
 import "./Admission.css";
-import { steps } from "../data";
+
 import design from "../assets/icons/Abstract Design.png";
 import banner from "../assets/images/admission-container.png";
 import processImg from "../assets/images/Sub Container.png";
