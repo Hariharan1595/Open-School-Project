@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+.contact-us{
+    text-align: center;
+    margin: 1rem auto;
+}
+.contact-us a{
+    color: #000000;
+    font-family: "Jockey One", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 8rem;
+    display: block;
+}
+.contact-us a span{
+    color:  rgba(73, 179, 255, 1);
+    margin: 0 .1rem;
+}
+
+.contact-us-text h2{
+    font-family: "Jockey One", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.mail form{
+    margin: 1rem auto;
+    display:flex;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 3rem auto;
+    flex-direction: column;
+    box-shadow: 14px 14px 14px 14px rgba(0, 0, 0, 0.25);
+
+}
+.mail input ,.mail textarea{
+    width: 80%;
+    display: block;
+    padding: 1rem;
+    background-color: #E7E7E7;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: .7rem 0;
+    resize: none;
+    font-family: "Jockey One", sans-serif;
+}
+.mail label{
+   
+        font-family: "Jockey One", sans-serif;
+        text-align: start;
+        align-self: flex-start;
+        margin-bottom: 0.5rem; 
+        margin-left: 3rem;
+        
+    }
+    .mail input::placeholder,.mail textarea::placeholder{
+        color: #949494;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    .send{
+        margin: .6rem auto;
+        display: block;
+        color: rgba(73, 179, 255, 1);
+        font-size: 1rem;
+        font-family: "Jockey One", sans-serif;
+        
+    }
+.submit-btn{
+    width: 80%;
+    padding: 1rem;
+    color:#ffff;
+    background-color: rgba(73, 179, 255, 1);
+    border: none;
+    outline: none;
+    border: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media(max-width:880px){
+    .contact-us p{
+        font-size: 1rem;
+        width: 90%;
+    }
+    .contact-us a{
+        font-size: .8rem;
+        margin-bottom: 4.5rem;
+    }
+    .mail form{
+        width: 90%;
+        height: 70vh;
+        padding: 1rem;
+    }
+    .mail label{
+        margin-left: 2rem;
+    }
+}

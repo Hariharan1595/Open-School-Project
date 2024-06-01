@@ -26,7 +26,11 @@
   font-size: 22px;
 }
 
-.navbar-links,.mobile-view li a:hover {
+.navbar-links li a:hover {
+  color: black;
+}
+
+.mobile-view li a:hover {
   color: black;
 }
 .message-box {
@@ -62,7 +66,6 @@
 .mobile-view li {
   margin: 5px auto;
 }
-
 
 @media (min-width: 1024px) and (max-width: 1435px) {
   .navbar-links {
