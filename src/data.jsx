@@ -1,12 +1,10 @@
 export const serviceData = [
   {
-    
     title: "EDUCATION IMPORTANT",
     content:
       "We believe in the power of play to foster creativity,problem-solving skills, and imagination.",
   },
   {
-  
     title: "TEACHING FACULTY",
     content:
       "We believe in the power of play to foster creativity,problem-solving skills, and imagination.",
@@ -85,5 +83,18 @@ export const steps = [
     title: "Acceptance",
     description:
       "Once the admission process is complete, you will receive an official acceptance letter from Little Learners Academy.",
+  },
+];
+
+export const faqData = [
+  {
+    Q: "Q: How do I enroll my child in your school?",
+    answer:
+      "A: You can start the enrollment process by contacting our admissions office or filling out the online application form on our website. We will guide you through the necessary steps and provide all the information you need.",
+  },
+  {
+    Q: "Q: How do I enroll my child in your school?",
+    answer:
+      "A: You can start the enrollment process by contacting our admissions office or filling out the online application form on our website. We will guide you through the necessary steps and provide all the information you need.",
   },
 ];

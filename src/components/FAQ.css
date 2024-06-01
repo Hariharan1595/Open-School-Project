@@ -1,0 +1,161 @@
+/* Mobile Phones */
+.faqbox {
+  max-width: 1150px;
+
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 25px;
+  border: 5px solid rgb(182, 182, 182);
+  box-shadow: 5px 5px 10px 5px rgb(182, 182, 182);
+}
+
+.question {
+  font-family: "Jockey One", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #00b3ff;
+  text-align: center;
+}
+.answer {
+  font-family: "Jockey One", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Additional styles for mobile phones */
+  .faqbox {
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 4px solid rgb(182, 182, 182);
+    box-shadow: 0px 0px 2px 2px rgb(182, 182, 182);
+  }
+
+  .question {
+    font-size: 12px;
+  }
+  .answer {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20.5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+    .faqbox {
+    max-width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px solid rgb(182, 182, 182);
+    box-shadow: 0px 0px 4px 4px rgb(182, 182, 182);
+  }
+
+  .question {
+    font-size: 12px;
+  }
+  .answer {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15.5px;
+    text-align: center;
+  }
+}
+
+/* Tablets in Portrait mode */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .faqbox {
+    max-width: 80%;
+   margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px solid rgb(182, 182, 182);
+    box-shadow: 0px 0px 4px 4px rgb(182, 182, 182);
+  }
+
+  .question {
+    font-size: 15px;
+  }
+  .answer {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: center;
+  }
+}
+
+/* Tablets in Landscape mode */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Additional styles for tablets in landscape mode */
+  .faqbox {
+    max-width: 80%;
+    
+    padding: 15px;
+    border-radius: 23px;
+    border: 4px solid rgb(182, 182, 182);
+    box-shadow: 0px 0px 8px 8px rgb(182, 182, 182);
+  }
+
+  .question {
+    font-size: 21px;
+  }
+  .answer {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.5 px;
+    text-align: center;
+  }
+}
+
+/* Small Laptops */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  /* Additional styles for small laptops */
+  .faqbox {
+    max-width: 80%;
+    padding: 18px;
+    border-radius: 25px;
+    border: 4px solid rgb(182, 182, 182);
+    box-shadow: 0px 0px 8px 8px rgb(182, 182, 182);
+  }
+
+  .question {
+    font-size: 25px;
+  }
+  .answer {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35.5 px;
+    text-align: center;
+  }
+}
+
+/* Medium Laptops */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+  /* Additional styles for medium laptops */
+}
+
+/* Large Laptops */
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  /* Additional styles for large laptops */
+}
+
+/* Standard Desktop Screens */
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+  /* Additional styles for standard desktop screens */
+}
+
+/* Large Desktop Screens */
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+  /* Additional styles for large desktop screens */
+}
+
+/* Ultra-Wide Screens */
+@media only screen and (min-width: 2561px) {
+  /* Additional styles for ultra-wide screens */
+}
