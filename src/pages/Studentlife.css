@@ -1,0 +1,126 @@
+.student-life{
+    margin: 5rem auto;
+    width: 90%;
+}
+.text-1{
+    text-align: center;
+}
+.text-1 p{
+    width: 45rem;
+    letter-spacing: 1px;
+    margin: 2rem auto;
+    font-family: 'Outfit',sans-serif;
+    
+}
+.text-1 h2{
+    border: 2px solid black;
+    padding: .5rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 5px;
+    color: #00B3FF;
+    font-family: 'Jockey One',sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.text-1 h3{
+    font-size: 2rem;
+    margin: 1rem;
+    font-family: 'Jockey One',sans-serif;
+    color:  #00B3FF;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.clubs{
+    margin: 6rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    row-gap: 40px;
+}
+.club-card{
+    position: relative;
+    width: 20rem;
+    height: 15rem;
+    border: 2px solid black;
+    padding: 2rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+
+}
+.club-card h4{
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+.club-card p{
+    font-family: 'Outfit',serif;
+    margin: 1rem 0;
+    line-height: 1.3;
+}
+.club-icon{
+    width: 50px;
+    position: absolute;
+    top: -10%;
+}
+.celebration{
+    margin: 8rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+   
+}
+.celebration-card{
+    width: 21rem;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    
+    
+}
+.celebration-bg-1{
+    background: url('../../assets/shape-1.png');
+    background-repeat: no-repeat;
+    background-position-y:35% ;
+
+}
+.celebrati1on-bg-2{
+    background: url('../../assets/shape-2.png');
+    background-repeat: no-repeat;
+    background-position-y:55%;
+
+}
+.celebration-card img{
+    width: 280px;
+    margin-bottom: .5rem;
+}
+.celebration-card h4{
+    margin: .7rem 0;
+    font-family: 'Raleway', serif;
+    letter-spacing: 1px;
+}
+.celebration-card p{
+    font-family: 'Outfit',serif;
+    line-height: 1.3;
+}
+.text-2 h2{
+    width: 15rem;
+}
+@media(max-width:720px){
+    .text-1 p{
+        width: 80%;
+        font-size: .8rem;
+
+    }
+    .text-1 h3{
+        font-size: 1.5rem;
+    }
+}

@@ -4,11 +4,11 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
-
 import Admission from "./pages/Admission";
 import Services from "./pages/Services";
 import AcademicsCom from "./pages/AcademicsCom";
 import Contact from "./pages/Contact";
+import Studentlife from "./pages/Studentlife";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path="services" element={<Services />} />
         <Route path="academics" element={<AcademicsCom />} />
         <Route path="contact" element={<Contact/>} />
+        <Route path="student-life" element={<Studentlife />} />
       </Routes>
       <Footer />
     </Router>
