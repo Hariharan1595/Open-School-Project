@@ -43,6 +43,9 @@
   height: 40px;
   background-color: #49b3ff;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-links {
   flex-wrap: wrap;

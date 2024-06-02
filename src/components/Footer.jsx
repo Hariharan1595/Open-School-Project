@@ -1,9 +1,12 @@
-import React from 'react'
-import "./Footer.css"
-import { footerLinks } from '../data';
-import FootLink from './FootLink';
-import logo from '../assets/images/Ellipse 1.png';
-
+import React from "react";
+import "./Footer.css";
+import { footerLinks } from "../data";
+import FootLink from "./FootLink";
+import logo from "../assets/images/Ellipse 1.png";
+import mail from "../assets/images/mail.png";
+import mobile from "../assets/images/Icon.png";
+import twitter from "../assets/images/twitter.png";
+import linkedin from "../assets/images/linkedin.png";
 
 const Footer = () => {
   return (
@@ -18,51 +21,46 @@ const Footer = () => {
           <div className="contact-details">
             <div className="detail">
               <div className="icon-box">
-                <img />
+                <img src={mail} alt="mail" />
               </div>
               <p className="mail">hello@littlelearners.com</p>
             </div>
             <div className="detail">
               <div className="icon-box">
-                <img />
+                <img src={mobile} alt="mobile-no" />
               </div>
               <p className="mail">+91 91812323209</p>
             </div>
           </div>
         </div>
-        <img
-          src={logo}
-          className="foot-logo"
-          width={123}
-          height={110}
-        ></img>
+        <img src={logo} className="foot-logo" width={123} height={110}></img>
         <div className="footer-links">
           {footerLinks.map((cell, index) => (
             <FootLink title={cell.title} links={cell.links} key={index} />
           ))}
         </div>
       </div>
-      <hr className='hr'/>
+      <hr className="hr" />
       <div className="terms-condition">
-        <a href='/'>Teams & services | Privacy policy | Cookie policy</a>
+        <a href="/">Teams & services | Privacy policy | Cookie policy</a>
         <div className="social-media">
           <div className="icon-box">
-            <img />
+            <img src={twitter} alt="twitter" />
           </div>
           <div className="icon-box">
-            <img />
+            <img src={linkedin} alt="linkedin" />
           </div>
           <div className="icon-box">
-            <img />
+            <img src={twitter} alt="twitter" />
           </div>
         </div>
       </div>
-      <hr className='hr'/>
+      <hr className="hr" />
       <div className="copywrite">
         Copyright 2024 | Open School Learners Academy | All Rights Reserved
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;
