@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { footerLinks } from "../data";
 import FootLink from "./FootLink";
-import logo from "../assets/images/Ellipse 1.png";
+import logo from "../assets/images/photo3.jpeg";
 import mail from "../assets/images/mail.png";
 import mobile from "../assets/images/Icon.png";
 import twitter from "../assets/images/twitter.png";
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <img src={logo} className="foot-logo" width={123} height={110}></img>
+        <img src={logo} className="foot-logo "></img>
         <div className="footer-links">
           {footerLinks.map((cell, index) => (
             <FootLink title={cell.title} links={cell.links} key={index} />

@@ -41,7 +41,7 @@ const Admission = () => {
         </div>
       </div>
 
-      <div className="newsletter">
+      {/* <div className="newsletter">
         <h1 className="box-title">Subscribe to get update</h1>
         <div className="sub-section">
           <p className="section-para">
@@ -57,7 +57,7 @@ const Admission = () => {
             Submit
           </button>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

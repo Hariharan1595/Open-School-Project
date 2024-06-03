@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/Ellipse 1.png";
+import logo from "../assets/images/photo3.jpeg";
 import "./Navbar.css";
 import mobile_menu from "../assets/images/menu-icon.png";
 import close_icon from "../assets/images/close-icon.jpeg";
@@ -50,6 +50,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/services">SERVICES</Link>
+          </li>
+          <li>
+            <Link to="/gallery">GALLERY</Link>
           </li>
           <li>
             <Link to="/about">ABOUT US</Link>

@@ -32,7 +32,7 @@ const Home = () => {
           content={serviceData[1].content}
         />
       </div>
-      <div className="newsletter">
+      {/* <div className="newsletter">
         <h1 className="box-title">Subscribe to get update</h1>
         <div className="sub-section">
           <p className="section-para">
@@ -48,7 +48,7 @@ const Home = () => {
             Submit
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

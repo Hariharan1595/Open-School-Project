@@ -7,6 +7,10 @@
   flex-direction: column;
   border-color: black;
 }
+.foot-logo{
+  width: 80px;
+  height: 80px;
+}
 .footer1 {
   display: flex;
   justify-content: space-between;
@@ -81,6 +85,8 @@
   color: #000000af;
 }
 
+
+
 /* ////////////////////////////////////////// */
 
 .cell {
@@ -115,7 +121,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
   }
   .cell {
     gap: 2px;
@@ -128,6 +134,10 @@
   }
 }
 @media (max-width: 767px) {
+  .foot-logo{
+    width: 60px;
+    height: 60px;
+  }
   .cell {
     gap: 2px;
   }
@@ -145,7 +155,7 @@
   }
   .footer1 {
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
   }
   .footer-title {
     font-size: 24px;
