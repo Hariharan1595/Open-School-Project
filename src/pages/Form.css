@@ -1,0 +1,79 @@
+.admission-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the form is at least the height of the viewport */
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    width: 100%; /* Adjust width as needed */
+    max-width: 500px; /* Limit width for larger screens */
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Allow scrolling if content exceeds height */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #49b3ff;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%; /* Take up full width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    background-color:   #49b3ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .form-container {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  }
+  

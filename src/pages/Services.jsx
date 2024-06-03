@@ -6,8 +6,8 @@ import AP from "../assets/images/AP.png";
 import EA from "../assets/images/EA.png";
 import SSS from "../assets/images/SSS.png";
 import CE from "../assets/images/CE.png";
-import p1 from "../assets/images/parent1.png";
-import p2 from "../assets/images/parent2.png";
+import p1 from "../assets/images/photo15.jpeg";
+import p2 from "../assets/images/photo14.jpeg";
 
 const Services = () => {
   return (
@@ -43,21 +43,26 @@ const Services = () => {
       </div>
 
       <div className="testimonials">
-        <div className="service-title">Customer Testimonials</div>
+        <div className="service-title">Student Testimonials</div>
         <div className="testimonial-box">
           <div className="customer-feedback">
-            <img className="customer-img" src={p1} alt="customer1" />
-            "Enrolling our child at [School Name] was the best decision we made
-            . The comprehensive academic programs and supportive environment
-            have made a significant difference in their learning experience." -
-            [Parent Name]
+            <img className="customer-img" src={p1} alt="customer1" />" I am
+            proud to be part of this incredible school. The dedication of our
+            teachers and the commitment to academic excellence create an
+            inspiring learning environment. The variety of extracurricular
+            activities offered here, from sports to arts, allows us to develop
+            our skills and interests beyond the classroom. With modern
+            facilities and a supportive community, our school truly prepares us
+            for the future." - Mohamed
           </div>
           <div className="customer-feedback">
-            <img className="customer-img" src={p2} alt="customer1" />
-            "Enrolling our child at [School Name] was the best decision we made
-            . The comprehensive academic programs and supportive environment
-            have made a significant difference in their learning experience." -
-            [Parent Name]
+            <img className="customer-img" src={p2} alt="customer1" />" The
+            quality of education and the dedication of our teachers are
+            exceptional. Our school not only focuses on academics but also
+            encourages participation in various extracurricular activities,
+            which helps in overall development. The well-maintained facilities
+            and a positive school culture make it a great place to learn and
+            grow." - Pragathi
           </div>
         </div>
       </div>

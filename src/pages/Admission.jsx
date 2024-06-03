@@ -4,10 +4,14 @@ import "./Admission2.css";
 import design from "../assets/icons/Abstract Design.png";
 import banner from "../assets/images/admission-container.png";
 import processImg from "../assets/images/Sub Container.png";
-
+import photo5 from "../assets/images/photo6.jpeg";
+import photo3 from "../assets/images/photo4.jpeg";
 const Admission = () => {
   return (
     <>
+      <div className="about-image-div">
+        <img src={photo5} alt="trustees" className="about-image" />
+      </div>
       <div className="banner">
         <img src={banner} alt="banner" className="banner-img" />
       </div>
@@ -25,10 +29,14 @@ const Admission = () => {
           step-by-step guide to joining our school
         </div>
       </div>
-
+      <div className="about-image-div">
+        <img src={photo3} alt="trustees" className="about-image" />
+      </div>
       <div className="ad-process">
         <div className="subsection">
-          <div className="box">Process</div>
+          <div className="box">
+                              Process
+          </div>
           <div className="title">Admission Process</div>
           <div className="para1">
             Embark on a remarkable educational journey with us! Our Admission

@@ -1,8 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
 .about{
-    text-align: center;
+    
     margin: 1rem auto;
+}
+.about-image-div{
+    width: 60%;
+    margin: 0px auto;
+}
+.about-image{
+    width: 100%;
+    border-radius: 20px;
+ 
 }
 .about a{
     color: #000000;
@@ -23,16 +32,18 @@
     font-size: 25px;
     font-weight: 400;
     letter-spacing: 1px;
+    text-align: center;
 }
 .about p{
     font-family: "Judson", serif;
     color:rgba(0, 0, 0, 0.85);
-    width: 550px;
+    width:75%;
     margin: 1rem auto;
     font-size: 1.7rem;
     line-height: 1.4;
 
 }
+
 @media(max-width:720px){
     .about p{
         font-size: 1rem;

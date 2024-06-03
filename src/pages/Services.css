@@ -48,7 +48,7 @@
 
 .customer-feedback {
   width: 440px;
-  position: relative;
+
   font-family: "Jockey One", sans-serif;
   font-size: 25px;
   font-weight: 400;
@@ -59,6 +59,7 @@
 }
 .customer-img {
   width: 40%;
+  border-radius: 50%;
 }
 
 .sub-title {

@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #49b3ff;
   font-family: "Jockey One", sans-serif;
-  height: 140px;
+  height: 110px;
 
   padding-left: 44px;
   gap: 30px;
@@ -49,12 +49,13 @@
   letter-spacing: 3.5px;
 }
 
-.blue-text a {
+.blue-text {
   text-decoration: none;
   color: #49b3ff;
 }
-.blue-text a:hover {
+.blue-text:hover{
   color: black;
+  cursor: pointer;
 }
 
 .menu {

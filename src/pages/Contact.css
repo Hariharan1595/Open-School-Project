@@ -1,102 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
-.contact-us{
-    text-align: center;
-    margin: 1rem auto;
-}
-.contact-us a{
-    color: #000000;
-    font-family: "Jockey One", sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-    margin-bottom: 8rem;
-    display: block;
-}
-.contact-us a span{
-    color:  rgba(73, 179, 255, 1);
-    margin: 0 .1rem;
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+.contact-us {
+  text-align: center;
+  margin: 1rem auto;
 }
 
-.contact-us-text h2{
-    font-family: "Jockey One", sans-serif;
-    letter-spacing: 2px;
-    font-weight: 400;
-    font-size: 1.5rem;
+.contact-us a {
+  color: #000000;
+  font-family: "Judson", Times, serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 8rem;
+  display: block;
 }
-.mail form{
-    margin: 1rem auto;
-    display:flex;
-    align-items: center;
-    width: 40%;
-    height: 100vh;
-    border-radius: 10px;
-    padding: 2rem;
-    margin: 3rem auto;
-    flex-direction: column;
-    box-shadow: 14px 14px 14px 14px rgba(0, 0, 0, 0.25);
+.contact-us a span {
+  color: rgba(73, 179, 255, 1);
+  margin: 0 0.1rem;
+}
 
+.contact-us-text h2 {
+  font-family: "Jockey One", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
-.mail input ,.mail textarea{
-    width: 80%;
-    display: block;
+.mail form {
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  width: 40%;
+
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 3rem auto;
+  flex-direction: column;
+  box-shadow: 14px 14px 14px 14px rgba(0, 0, 0, 0.25);
+}
+.mail input,
+.mail textarea {
+  width: 80%;
+  display: block;
+  padding: 1rem;
+  background-color: #e7e7e7;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 0.7rem 0;
+  resize: none;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  font-size: 1.2rem;
+}
+.mail label {
+  font-family: "Judson", sans-serif;
+  text-align: start;
+  align-self: flex-start;
+  margin-bottom: 0.5rem;
+  margin-left: 3rem;
+}
+.mail input::placeholder,
+.mail textarea::placeholder {
+  color: #949494;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.send {
+  margin: 0.6rem auto;
+  display: block;
+  color: rgba(73, 179, 255, 1);
+  font-size: 1rem;
+  font-family: "Judson", sans-serif;
+}
+.submit-btn {
+  width: 80%;
+  padding: 1rem;
+  color: #ffff;
+  background-color: rgba(73, 179, 255, 1);
+  border: none;
+  outline: none;
+  border: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.trustee-info {
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.name-list {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+.name-list li {
+  font-family: "Judson", Times, serif;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+@media (max-width: 880px) {
+  .contact-us p {
+    font-size: 1rem;
+    width: 90%;
+  }
+  .contact-us a {
+    font-size: 0.8rem;
+    margin-bottom: 4.5rem;
+  }
+  .mail form {
+    width: 90%;
+
     padding: 1rem;
-    background-color: #E7E7E7;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    margin: .7rem 0;
-    resize: none;
-    font-family: "Jockey One", sans-serif;
-}
-.mail label{
-   
-        font-family: "Jockey One", sans-serif;
-        text-align: start;
-        align-self: flex-start;
-        margin-bottom: 0.5rem; 
-        margin-left: 3rem;
-        
-    }
-    .mail input::placeholder,.mail textarea::placeholder{
-        color: #949494;
-        font-size: 1rem;
-        letter-spacing: 1px;
-    }
-    .send{
-        margin: .6rem auto;
-        display: block;
-        color: rgba(73, 179, 255, 1);
-        font-size: 1rem;
-        font-family: "Jockey One", sans-serif;
-        
-    }
-.submit-btn{
-    width: 80%;
-    padding: 1rem;
-    color:#ffff;
-    background-color: rgba(73, 179, 255, 1);
-    border: none;
-    outline: none;
-    border: 10px;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-@media(max-width:880px){
-    .contact-us p{
-        font-size: 1rem;
-        width: 90%;
-    }
-    .contact-us a{
-        font-size: .8rem;
-        margin-bottom: 4.5rem;
-    }
-    .mail form{
-        width: 90%;
-        height: 70vh;
-        padding: 1rem;
-    }
-    .mail label{
-        margin-left: 2rem;
-    }
+  }
+  .mail label {
+    margin-left: 2rem;
+  }
 }

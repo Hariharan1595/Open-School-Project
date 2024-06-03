@@ -16,6 +16,9 @@ import img_3 from "../assets/images/Image-3.png";
 import img_4 from "../assets/images/Image-4.png";
 import img_5 from "../assets/images/Image-5.png";
 import img_6 from "../assets/images/Image-6.png";
+import photo1 from "../assets/images/photo1.jpeg";
+import photo7 from "../assets/images/photo8.jpeg";
+
 
 const Studentlife = () => {
   return (
@@ -23,6 +26,7 @@ const Studentlife = () => {
       <div className="text-1">
         <h2>Our Features</h2>
         <h3>Extracurricular Activities</h3>
+
         <p>
           At Little Learners Academy, we believe in nurturing well-rounded
           individuals. Our extracurricular activities offer a diverse range of
@@ -30,6 +34,9 @@ const Studentlife = () => {
           students to explore their interests and passions. We offer a wide
           array of extracurricular activities, including
         </p>
+        <div className="about-image-div">
+          <img src={photo1} alt="trustees" className="about-image" />
+        </div>
       </div>
       <div className="clubs">
         <div className="club-card">
@@ -94,6 +101,9 @@ const Studentlife = () => {
           variety of events and celebrations that bring the entire school
           community together. Some of our memorable events include
         </p>
+        <div className="about-image-div">
+          <img src={photo7} alt="trustees" className="about-image" />
+        </div>
       </div>
       <div className="celebration">
         <div className="celebration-card celebration-bg-1">

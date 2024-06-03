@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Studentlife from "./pages/Studentlife";
 import ImageGallery from "./pages/ImageGallery";
 
+
 function App() {
   return (
     <Router>
@@ -24,6 +25,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="student-life" element={<Studentlife />} />
         <Route path="gallery" element={<ImageGallery />} />
+      
       </Routes>
       <Footer />
     </Router>
