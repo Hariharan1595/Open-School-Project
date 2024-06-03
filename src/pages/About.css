@@ -5,7 +5,7 @@
     margin: 1rem auto;
 }
 .about-image-div{
-    width: 60%;
+    width: 80%;
     margin: 0px auto;
 }
 .about-image{
@@ -45,6 +45,9 @@
 }
 
 @media(max-width:720px){
+    .about-image-div{
+        width: 100%;
+    }
     .about p{
         font-size: 1rem;
         width: 90%;
