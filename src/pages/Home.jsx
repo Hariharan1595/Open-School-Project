@@ -7,6 +7,7 @@ import { serviceData } from "../data";
 import students from "../assets/images/students.png";
 import board from "../assets/images/board.png";
 
+
 import club_icon_1 from "../assets/images/Icon Container-1.png";
 import club_icon_2 from "../assets/images/Icon Container-2.png";
 import club_icon_3 from "../assets/images/Icon Container-3.png";
@@ -16,6 +17,7 @@ import club_icon_6 from "../assets/images/Icon Container-6.png";
 import club_icon_7 from "../assets/images/Icon Container-7.png";
 import club_icon_8 from "../assets/images/Icon Container-8.png";
 import club_icon_9 from "../assets/images/Icon Container-9.png";
+
 
 const Home = () => {
   return (
@@ -90,7 +92,6 @@ const Home = () => {
       <div className="subsection">
         <div className="box">Services</div>
         <div className="title">Our Services</div>
-        
       </div>
       <div className="service-section">
         <Card1
@@ -104,6 +105,7 @@ const Home = () => {
           content={serviceData[1].content}
         />
       </div>
+
       {/* <div className="newsletter">
         <h1 className="box-title">Subscribe to get update</h1>
         <div className="sub-section">
@@ -121,6 +123,7 @@ const Home = () => {
           </button>
         </div>
       </div> */}
+      
     </div>
   );
 };

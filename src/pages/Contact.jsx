@@ -62,7 +62,7 @@ const Contact = () => {
           </form>
           <span className="send">{result}</span>
         </div>
-       
+
         <div className="trustee-info">
           <div className="contact-text">
             <h2>TRUSTEES</h2>
@@ -98,6 +98,7 @@ const Contact = () => {
             </li>
           </ul>
         </div>
+
       </div>
     </>
   );

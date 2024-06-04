@@ -1,14 +1,75 @@
 import React from "react";
 import "./Academics.css";
-import profile_1 from '../assets/images/img-1.png'
-import profile_2 from '../assets/images/img-2.png'
-import profile_3 from '../assets/images/img-3.png'
-import profile_4 from '../assets/images/img-4.png'
-
-
+import profile_1 from "../assets/images/img-1.png";
+import profile_2 from "../assets/images/img-2.png";
+import profile_3 from "../assets/images/img-3.png";
+import profile_4 from "../assets/images/img-4.png";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import photo12 from "../assets/images/photo13.jpeg";
 
+import { FacultyData } from "../data";
+
+const photos = [
+  profile_1,
+  profile_2,
+  profile_3,
+  profile_4,
+  profile_1,
+  profile_2,
+  profile_3,
+  profile_4,
+];
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 1024 },
+    items: 4,
+    slidesToSlide: 2,
+  },
+  desktop: {
+    breakpoint: { max: 1024, min: 800 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 800, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
+
+function Product(props) {
+  return (
+    <div className="faculty-card">
+      <img className="product--image" src={props.url} alt="product image" />
+      <div className="profile-details">
+        <h2 className="profile-name">{props.name}</h2>
+        <p className="price">{props.price}</p>
+        <p className="profile-desc">{props.description}</p>
+      </div>
+    </div>
+  );
+}
+
+
+
 const Academics = () => {
+
+  const product = FacultyData.map((item,index) => 
+    (
+    <Product
+      name={item.name}
+      url={photos[index]}
+      price={item.price}
+      description={item.description}
+    />
+    
+  ));
+
   return (
     <div className="academics">
       <h3>Curriculum Overview</h3>
@@ -23,25 +84,12 @@ const Academics = () => {
       <div className="about-image-div">
         <img src={photo12} alt="trustees" className="about-image" />
       </div>
+
       <div className="profile">
         <h2>FACULTY PROFILE</h2>
-        <div className="profile-img">
-          <div className="profile-card">
-            <img src={profile_1} alt="" />
-            <h4>STELLA </h4>
-            <span>Read more</span>
-          </div>
-          <div className="profile-card">
-            <img src={profile_2} alt="" />
-            <h4>STELLA </h4>
-            <span>Read more</span>
-          </div>
-          <div className="profile-card">
-            <img src={profile_3} alt="" />
-            <h4>STELLA </h4>
-            <span>Read more</span>
-          </div>
-        </div>
+        <Carousel showDots={true} responsive={responsive}>
+          {product}
+        </Carousel>
       </div>
     </div>
   );

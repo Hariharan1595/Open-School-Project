@@ -98,3 +98,62 @@ export const faqData = [
       "A: You can start the enrollment process by contacting our admissions office or filling out the online application form on our website. We will guide you through the necessary steps and provide all the information you need.",
   },
 ];
+
+export const FacultyData = [
+  {
+    id: 1,
+
+    name: "Stella",
+    price: "Teacher",
+    description: "Some text about the product..",
+  },
+  {
+    id: 2,
+
+    name: "Mary",
+    price: "Teacher",
+    description: "Some text about the product..",
+  },
+  {
+    id: 3,
+
+    name: "Amy",
+    price: "Teacher",
+    description: "Some text about the product..",
+  },
+  {
+    id: 4,
+
+    name: "Scarlett",
+    price: "Teacher",
+    description: "Some text about the product..",
+  },
+  {
+    id: 1,
+
+    name: "Stella",
+    price: "Teacher",
+    description: "Some text about the product..",
+  },
+  {
+    id: 2,
+
+    name: "Mary",
+    price: "Teacher",
+    description: "Some text about the product..",
+  },
+  {
+    id: 3,
+
+    name: "Amy",
+    price: "Teacher",
+    description: "Some text about the product..",
+  },
+  {
+    id: 4,
+
+    name: "Scarlett",
+    price: "Teacher",
+    description: "Some text about the product..",
+  },
+];
