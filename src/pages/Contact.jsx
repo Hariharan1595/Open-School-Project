@@ -27,6 +27,13 @@ const Contact = () => {
       setResult(data.message);
     }
   };
+
+
+  const handleLocationClick = () => {
+    // Redirect to  location on Google Maps
+    window.location.href = "https://maps.app.goo.gl/tGM4nLZ9wWRk6uzg8";
+  };
+
   return (
     <>
       <div className="contact-us">
@@ -99,6 +106,9 @@ const Contact = () => {
           </ul>
         </div>
 
+        <button className="location" onClick={handleLocationClick}>
+          Location
+        </button>
       </div>
     </>
   );

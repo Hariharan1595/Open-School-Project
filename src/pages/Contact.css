@@ -99,6 +99,23 @@
   text-align: left;
 }
 
+.location {
+    padding: 1rem 2rem;
+    background-color:#27a2fa;
+    color: #ffffff;
+    font-family: serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin: 2rem auto;
+    transition: 0.5s;
+    font-size: 1rem;
+}
+.location:hover{
+    scale: 1.2;
+}
+
 @media (max-width: 880px) {
   .contact-us p {
     font-size: 1rem;

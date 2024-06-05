@@ -7,10 +7,10 @@ import About from "./pages/About";
 import Admission from "./pages/Admission";
 import Services from "./pages/Services";
 import AcademicsCom from "./pages/AcademicsCom";
-import Contact from "./pages/Contact";
+
 import Studentlife from "./pages/Studentlife";
 import ImageGallery from "./pages/ImageGallery";
-
+import Contact from "./pages/Contact";
 
 function App() {
   return (
