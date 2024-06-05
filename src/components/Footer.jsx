@@ -5,8 +5,9 @@ import FootLink from "./FootLink";
 import logo from "../assets/images/photo3.jpeg";
 import mail from "../assets/images/mail.png";
 import mobile from "../assets/images/Icon.png";
-import twitter from "../assets/images/twitter.png";
+import insta from "../assets/images/insta-icon.png";
 import linkedin from "../assets/images/linkedin.png";
+import youtube from "../assets/images/youtube.png"
 
 const Footer = () => {
   return (
@@ -45,13 +46,13 @@ const Footer = () => {
         <a href="/">Teams & services | Privacy policy | Cookie policy</a>
         <div className="social-media">
           <div className="icon-box">
-            <img src={twitter} alt="twitter" />
+            <img src={youtube} alt="twitter" />
           </div>
           <div className="icon-box">
             <img src={linkedin} alt="linkedin" />
           </div>
           <div className="icon-box">
-            <img src={twitter} alt="twitter" />
+            <img src={insta} alt="twitter" />
           </div>
         </div>
       </div>
