@@ -77,6 +77,11 @@
 .faq {
   margin-bottom: 30px;
 }
+.box-image{
+  width: 90%;
+  margin-top: 0.5rem;
+  border-radius: 20px;
+}
 
 /* Small Mobile Phones */
 
@@ -104,9 +109,7 @@
   .box-title {
     font-size: 20px;
   }
-  .box-image {
-    width: 95%;
-  }
+ 
   .customer-feedback {
     width: 220px;
     font-size: 15px;
@@ -153,9 +156,7 @@
   .box-title {
     font-size: 15px;
   }
-  .box-image {
-    width: 95%;
-  }
+  
   .customer-feedback {
     width: 160px;
     font-size: 10px;
@@ -198,9 +199,7 @@
   .box-title {
     font-size: 15px;
   }
-  .box-image {
-    width: 95%;
-  }
+
   .customer-feedback {
     width: 180px;
     font-size: 12px;
@@ -235,9 +234,7 @@
   .box-title {
     font-size: 30px;
   }
-  .box-image {
-    width: 95%;
-  }
+ 
   .customer-feedback {
     width: 250px;
     font-size: 15px;
@@ -269,9 +266,7 @@
   .box-title {
     font-size: 40px;
   }
-  .box-image {
-    width: 95%;
-  }
+  
   .customer-feedback {
     width: 350px;
     font-size: 20px;

@@ -21,7 +21,7 @@ const photos = [
   profile_4,
 ];
 
-const responsive = {
+export const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 1024 },

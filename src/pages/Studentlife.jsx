@@ -10,14 +10,18 @@ import club_icon_7 from "../assets/images/Icon Container-7.png";
 import club_icon_8 from "../assets/images/Icon Container-8.png";
 import club_icon_9 from "../assets/images/Icon Container-9.png";
 
-import img_1 from "../assets/images/Image-1.png";
-import img_2 from "../assets/images/Image-2.png";
-import img_3 from "../assets/images/Image-3.png";
-import img_4 from "../assets/images/Image-4.png";
-import img_5 from "../assets/images/Image-5.png";
-import img_6 from "../assets/images/Image-6.png";
+import img_1 from "../assets/images/DSC_5195.JPG";
+import img_2 from "../assets/images/DSC_5621.JPG";
+import img_3 from "../assets/images/DSC_5591.JPG";
+import img_4 from "../assets/images/DSC_3380.JPG";
+import img_5 from "../assets/images/182A0720.JPG";
+import img_6 from "../assets/images/DSC_3709.JPG";
 import photo1 from "../assets/images/photo1.jpeg";
-import photo7 from "../assets/images/photo8.jpeg";
+import photo7 from "../assets/images/DSC_5613.JPG";
+import celebration from "../assets/images/DSC_5504.JPG";
+import sps from "../assets/images/SpS.JPG";
+import sps2 from "../assets/images/DSC_3528.JPG";
+
 
 
 const Studentlife = () => {
@@ -104,6 +108,9 @@ const Studentlife = () => {
         <div className="about-image-div">
           <img src={photo7} alt="trustees" className="about-image" />
         </div>
+        <div className="about-image-div">
+          <img src={celebration} alt="trustees" className="about-image" />
+        </div>
       </div>
       <div className="celebration">
         <div className="celebration-card celebration-bg-1">
@@ -164,6 +171,9 @@ const Studentlife = () => {
           Our student support services include
         </p>
       </div>
+      <div className="about-image-div">
+        <img src={sps} alt="trustees" className="about-image" />
+      </div>
       <div className="clubs">
         <div className="club-card">
           <img src={club_icon_7} alt="" className="club-icon" />
@@ -189,6 +199,9 @@ const Studentlife = () => {
             communication and mutual support in a child's development.
           </p>
         </div>
+      </div>
+      <div className="about-image-div">
+        <img src={sps2} alt="trustees" className="about-image" />
       </div>
     </div>
   );

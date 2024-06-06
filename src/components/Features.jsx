@@ -1,12 +1,14 @@
 import React from "react";
 import "./Features.css";
-import Learn_1 from "../assets/images/learn-1.png";
-import Learn_2 from "../assets/images/learn-2.png";
+import Learn_1 from "../assets/images/DSC_4945.JPG";
+import Learn_2 from "../assets/images/board2.JPG";
 import Learn_3 from "../assets/images/learn-3.png";
-import Learn_4 from "../assets/images/learn-4.png";
-import Learn_5 from "../assets/images/learn-5.png";
-import Learn_6 from "../assets/images/learn-6.png";
+import Learn_4 from "../assets/images/DSC_5195.JPG";
+import Learn_5 from "../assets/images/DSC_5601.JPG";
+import Learn_6 from "../assets/images/DSC_5086.JPG";
+
 import shape_img from "../assets/images/Shape.png";
+
 
 const Features = () => {
   return (

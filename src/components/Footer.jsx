@@ -9,28 +9,32 @@ import insta from "../assets/images/insta-icon.png";
 import linkedin from "../assets/images/linkedin.png";
 import youtube from "../assets/images/youtube.png"
 
+
 const Footer = () => {
   return (
     <footer className="footer-section">
       <div className="footer1">
         <div className="footer-details">
-          <h1 className="footer-title">OPEN SCHOOL</h1>
+          <h1 className="footer-title">AHUM ACADEMY of Open Schooling </h1>
           <p className="footer-para">
-            We believe in the power of play to foster creativity,<br></br>
-            problem-solving skills, and imagination.
+            2A Gandhi Road,
+            <br />
+            Sadanandapuram, <br />
+            New Perungalathur, <br />
+            Chennai-600063.
           </p>
           <div className="contact-details">
             <div className="detail">
               <div className="icon-box">
                 <img src={mail} alt="mail" />
               </div>
-              <p className="mail">hello@littlelearners.com</p>
+              <p className="mail">amalseducation@gmail.com </p>
             </div>
             <div className="detail">
               <div className="icon-box">
                 <img src={mobile} alt="mobile-no" />
               </div>
-              <p className="mail">+91 91812323209</p>
+              <p className="mail">+91 9500194219, +91 9787871400</p>
             </div>
           </div>
         </div>

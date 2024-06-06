@@ -2,10 +2,10 @@ import React from "react";
 import "./Services.css";
 import { faqData } from "../data";
 import FAQ from "../components/FAQ";
-import AP from "../assets/images/AP.png";
-import EA from "../assets/images/EA.png";
-import SSS from "../assets/images/SSS.png";
-import CE from "../assets/images/CE.png";
+import AP from "../assets/images/DSC_5601.JPG";
+import EA from "../assets/images/DSC_3706.JPG";
+import SSS from "../assets/images/DSC_3483.JPG";
+import CE from "../assets/images/DSC_3458.JPG";
 import p1 from "../assets/images/photo15.jpeg";
 import p2 from "../assets/images/photo14.jpeg";
 
