@@ -3,9 +3,8 @@ import "./ImageGallery.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { responsive } from "../components/Academics";
-import photo1 from "../assets/images/DSC_3397.JPG";
+import photo1 from "../assets/images/DSC_3397.JPG";;
 import photo2 from "../assets/images/DSC_3893.JPG";
-
 import photo3 from "../assets/images/DSC_3390.JPG";
 import photo4 from "../assets/images/DSC_3395.JPG";
 import photo5 from "../assets/images/DSC_3408.JPG";

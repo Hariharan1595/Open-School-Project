@@ -4,8 +4,8 @@ import "./Home.css";
 import Container from "../assets/images/Container.png";
 import Card1 from "../components/Card1";
 import { serviceData } from "../data";
-import students from "../assets/images/students2.JPG";
-import board from "../assets/images/board2.JPG";
+import students from "../assets/images/students2.jpg";
+import board from "../assets/images/board2.jpg";
 
 
 import club_icon_1 from "../assets/images/Icon Container-1.png";
