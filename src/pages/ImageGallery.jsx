@@ -3,20 +3,20 @@ import "./ImageGallery.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { responsive } from "../components/Academics";
-import photo1 from "../assets/images/DSC_3397.JPG";;
-import photo2 from "../assets/images/DSC_3893.JPG";
-import photo3 from "../assets/images/DSC_3390.JPG";
-import photo4 from "../assets/images/DSC_3395.JPG";
-import photo5 from "../assets/images/DSC_3408.JPG";
-import photo6 from "../assets/images/DSC_3412.JPG";
-import photo7 from "../assets/images/DSC_3422.JPG";
-import photo8 from "../assets/images/DSC_3426.JPG";
-import photo9 from "../assets/images/DSC_3430.JPG";
-import photo10 from "../assets/images/DSC_5181.JPG";
-import photo11 from "../assets/images/182A0703.JPG";
-import photo12 from "../assets/images/182A0759.JPG";
-import photo13 from "../assets/images/182A0830.JPG";
-import photo14 from "../assets/images/DSC_5181.JPG";
+import photo1 from "../assets/images/DSC_3397.jpeg";;
+import photo2 from "../assets/images/DSC_3893.jpeg";
+import photo3 from "../assets/images/DSC_3390.jpeg";
+import photo4 from "../assets/images/DSC_3395.jpeg";
+import photo5 from "../assets/images/DSC_3408.jpeg";
+import photo6 from "../assets/images/DSC_3412.jpeg";
+import photo7 from "../assets/images/DSC_3422.jpeg";
+import photo8 from "../assets/images/DSC_3426.jpeg";
+import photo9 from "../assets/images/DSC_3430.jpeg";
+import photo10 from "../assets/images/DSC_5181.jpeg";
+import photo11 from "../assets/images/182A0703.jpeg";
+import photo12 from "../assets/images/182A0759.jpeg";
+import photo13 from "../assets/images/182A0830.jpeg";
+import photo14 from "../assets/images/DSC_5181.jpeg";
 
 
 const ImageGallery = () => {

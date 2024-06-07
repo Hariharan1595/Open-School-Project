@@ -1,11 +1,11 @@
 import React from "react";
 import "./Features.css";
-import Learn_1 from "../assets/images/DSC_4945.JPG";
+import Learn_1 from "../assets/images/DSC_4945.jpeg";
 import Learn_2 from "../assets/images/board2.jpeg";
 import Learn_3 from "../assets/images/learn-3.png";
-import Learn_4 from "../assets/images/DSC_5195.JPG";
-import Learn_5 from "../assets/images/DSC_5601.JPG";
-import Learn_6 from "../assets/images/DSC_5086.JPG";
+import Learn_4 from "../assets/images/DSC_5195.jpeg";
+import Learn_5 from "../assets/images/DSC_5601.jpeg";
+import Learn_6 from "../assets/images/DSC_5086.jpeg";
 
 import shape_img from "../assets/images/Shape.png";
 

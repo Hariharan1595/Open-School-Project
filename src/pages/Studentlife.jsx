@@ -10,17 +10,17 @@ import club_icon_7 from "../assets/images/Icon Container-7.png";
 import club_icon_8 from "../assets/images/Icon Container-8.png";
 import club_icon_9 from "../assets/images/Icon Container-9.png";
 
-import img_1 from "../assets/images/DSC_5195.JPG";
-import img_2 from "../assets/images/DSC_5621.JPG";
-import img_3 from "../assets/images/DSC_5591.JPG";
-import img_4 from "../assets/images/DSC_3380.JPG";
-import img_5 from "../assets/images/182A0720.JPG";
-import img_6 from "../assets/images/DSC_3709.JPG";
+import img_1 from "../assets/images/DSC_5195.jpeg";
+import img_2 from "../assets/images/DSC_5621.jpeg";
+import img_3 from "../assets/images/DSC_5591.jpeg";
+import img_4 from "../assets/images/DSC_3380.jpeg";
+import img_5 from "../assets/images/182A0720.jpeg";
+import img_6 from "../assets/images/DSC_3709.jpeg";
 import photo1 from "../assets/images/photo1.jpeg";
-import photo7 from "../assets/images/DSC_5613.JPG";
-import celebration from "../assets/images/DSC_5504.JPG";
-import sps from "../assets/images/SpS.JPG";
-import sps2 from "../assets/images/DSC_3528.JPG";
+import photo7 from "../assets/images/DSC_5613.jpeg";
+import celebration from "../assets/images/DSC_5504.jpeg";
+import sps from "../assets/images/SpS.jpeg";
+import sps2 from "../assets/images/DSC_3528.jpeg";
 
 
 
