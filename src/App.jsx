@@ -8,7 +8,7 @@ import Admission from "./pages/Admission";
 import Services from "./pages/Services";
 import AcademicsCom from "./pages/AcademicsCom";
 import Studentlife from "./pages/Studentlife";
-import ImageGallery from "./pages/Gallery2";
+import ImageGallery from "./pages/ImageGallery";
 import Contact from "./pages/Contact";
 
 function App() {
