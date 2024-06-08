@@ -21,6 +21,7 @@ const Services = () => {
           </div>
           <div className="service-box">
             <img
+              
               src={EA}
               alt="Extracurricular Activities"
               className="box-image"

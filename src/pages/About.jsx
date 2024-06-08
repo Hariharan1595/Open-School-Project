@@ -1,59 +1,63 @@
-import React,{useState}from "react";
+import React, { useState } from "react";
 import "./About.css";
 import photo4 from "../assets/images/photo5.jpeg";
 import photo11 from "../assets/images/photo12.jpeg";
 
 const About = () => {
-  const [readMore,setReadMore] =useState(false);
+  const [readMore, setReadMore] = useState(false);
 
-  const toggleReadMore = () =>{
+  const toggleReadMore = () => {
     setReadMore(!readMore);
-  }
+  };
 
   return (
     <div className="about">
       <h3>WHY WE DOING THIS</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
-        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
-        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
-        quis risus luctus, varius libero sed, volutpat tellus. Aenean finibus
-        lacus ut sagittis accumsan. Praesent porttitor faucibus velit, nec
-        maximus lectus euismod at. Mauris finibus egestas laoreet. 
+        At AHUM Academy of Open Schooling, we believe that education should be
+        accessible to everyone, regardless of their financial situation. Many
+        students in India struggle to access quality education due to high costs
+        and limited resources. Our mission is to remove these barriers and
+        provide affordable, accessible education to all. By offering open
+        schooling, we empower students with the knowledge and skills they need
+        to build a better future for themselves and their communities.
       </p>
       <h3>WHO ARE WE</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
-        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
-        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
-        quis risus luctus, varius libero sed, volutpat tellus. Aenean finibus
-        lacus ut sagittis accumsan. Praesent porttitor faucibus velit, nec
-        maximus lectus euismod at. Mauris finibus egestas laoreet. 
+        We are AHUM Academy of Open Schooling, run by AHUM Charitable Trust. Our
+        non-profit organization is dedicated to making education accessible for
+        all. Our team consists of passionate educators, volunteers, and
+        community members who are committed to helping students succeed. We
+        provide a range of educational resources and support to ensure that
+        every student has the opportunity to learn and grow.
       </p>
-      <h3>HOW LONG ARE WE DOING THIS</h3>
+      <h3>HOW LONG WE HAVE BEEN DOING THIS DOING THIS</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
-        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
-        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
-        quis risus luctus, varius libero sed, volutpat tellus. 
+        AHUM Academy of Open Schooling has been making a difference in education
+        for the past three years. Since our inception, we have been dedicated to
+        providing affordable and accessible education to students across India.
+        In these three years, we have helped numerous students achieve their
+        educational goals and realize their potential.
       </p>
       <h3>HOW WE STARTED</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
-        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
-        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
-        quis risus luctus, varius libero sed, volutpat tellus. Aenean finibus
-        lacus ut sagittis accumsan. Praesent porttitor faucibus velit, nec
-        maximus lectus euismod at. Mauris finibus egestas laoreet. 
+        Our journey began three years ago with a simple yet powerful vision: to
+        make quality education available to all. AHUM Charitable Trust
+        established AHUM Academy of Open Schooling with a firm commitment to
+        breaking down barriers to education. From our humble beginnings, we have
+        grown into a trusted institution that is making a significant impact in
+        the lives of students.
       </p>
       <h3>WHAT IS THE DIFFERENCE FROM OTHERS</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
-        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
-        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
-        quis risus luctus, varius libero sed, volutpat tellus. Aenean finibus
-        lacus ut sagittis accumsan. Praesent porttitor faucibus velit, nec
-        maximus lectus euismod at. Mauris finibus egestas laoreet. 
+        What sets AHUM Academy of Open Schooling apart is our hands-on approach
+        and dedication to student success. In addition to offering open
+        schooling programs, we actively engage with our students through various
+        events, workshops, and support programs. We believe in providing not
+        just education but also a supportive community where students can thrive
+        and grow. Through our commitment to accessibility, affordability, and
+        student support, we are making a difference in education one student at
+        a time.
       </p>
       <h3>
         <u>AHUM CHARITABLE TRUST</u>
@@ -63,21 +67,7 @@ const About = () => {
         <img src={photo11} alt="trustees" className="about-image" />
       </div>
 
-      <h3>DEED OF TRUST</h3>
-      <p>
-        This DEED OF DECLARATION OF TRUST executed on this 05th Day of APRIL
-        2023 by Mrs. N Sangeetha W/o Joe Vasanth hereinafter called as Founder &
-        Managing Trustee of the Trust which expression shall wherever the
-        context so permits mean and include its successors – in-office of the
-        ONE PART and; WHEREAS the Founder of the TRUST decided to create and
-        establish a public Charitable Trust for the welfare of the community at
-        large. WHEREAS the said objects in view, the Founder of TRUST have
-        decided to endow the said TRUST a Corpus fund of Rs.1,000/=(Rupees One
-        Thousand only) in cash; and Whereas It is necessary and desirable to
-        declare and constitute the said Trust and to record the objects and
-        constitution of the said Trust.
-      </p>
-      <h3>OBJECTS OF THE TRUST </h3>
+      <h3>OBJECTIVES OF THE TRUST </h3>
       <p className="objectives">
         1. To form and develop Yoga & Meditation centers and resorts for general
         public for enhancing peaceful mindset and stress free living.

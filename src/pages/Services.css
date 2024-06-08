@@ -1,10 +1,10 @@
 /* Default styles (for large screens or desktops) */
 .service-title {
   font-family: "Jockey One", sans-serif;
-  font-size: 65px;
+  font-size:50px;
   font-weight: 400;
   text-align: center;
-  margin: 30px;
+  margin:10px auto;
   color: #00b3ff;
 }
 
