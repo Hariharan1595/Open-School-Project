@@ -4,7 +4,7 @@ import gal_1 from "../assets/images/gal-1.png";
 import gal_2 from "../assets/images/gal-2.png";
 import gal_3 from "../assets/images/gal-3.png";
 import gal_4 from "../assets/images/gal-4.png";
-import photo6 from "../assets/images/photo7.jpeg";
+import photo6 from "../assets/images/DSC_5181.jpeg";
 const Gallery = () => {
   return (
     <div className="gallery">

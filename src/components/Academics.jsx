@@ -6,7 +6,7 @@ import profile_3 from "../assets/images/img-3.png";
 import profile_4 from "../assets/images/img-4.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import photo12 from "../assets/images/photo13.jpeg";
+import photo12 from "../assets/images/182A0902.jpeg";
 
 import { FacultyData } from "../data";
 

@@ -3,7 +3,7 @@
 .academics {
   padding: 0 2rem;
   margin: 1rem auto;
-  font-family: "Jockey One", sans-serif;
+
 }
 .academics a {
   text-align: center;
@@ -20,6 +20,7 @@
 .academics h3 {
   color: rgba(73, 179, 255, 1);
   font-size: 1.7rem;
+  font-family: 'Times New Roman', Times, serif;
 
   text-align: center;
 }

@@ -37,8 +37,8 @@ const Home = () => {
           foundation for your child's future.
         </div>
       </div>
-      <div className="clubs">
-        <div className="club-card">
+      <div className="clubs1">
+        <div className="club-card1">
           <img src={club_icon_1} alt="" className="club-icon" />
           <h4>Play-Based Learning</h4>
           <p>
@@ -46,7 +46,7 @@ const Home = () => {
             problem-solving skills, and imagination.
           </p>
         </div>
-        <div className="club-card">
+        <div className="club-card1">
           <img src={club_icon_2} alt="" className="club-icon" />
           <h4>Individualized Attention</h4>
           <p>
@@ -54,7 +54,7 @@ const Home = () => {
             each child's unique needs.
           </p>
         </div>
-        <div className="club-card">
+        <div className="club-card1">
           <img src={club_icon_3} alt="" className="club-icon" />
           <h4>Parent Involvement</h4>
           <p>
@@ -62,7 +62,7 @@ const Home = () => {
             communication and collaboration.
           </p>
         </div>
-        <div className="club-card">
+        <div className="club-card1">
           <img src={club_icon_4} alt="" className="club-icon" />
           <h4>Alumni Achievements</h4>
           <p>
@@ -70,7 +70,7 @@ const Home = () => {
             each child's unique needs.
           </p>
         </div>
-        <div className="club-card">
+        <div className="club-card1">
           <img src={club_icon_5} alt="" className="club-icon" />
           <h4>Science Club</h4>
           <p>
@@ -78,7 +78,7 @@ const Home = () => {
             science through fun experiments and hands-on learning.
           </p>
         </div>
-        <div className="club-card">
+        <div className="club-card1">
           <img src={club_icon_6} alt="" className="club-icon" />
           <h4>Cooking and Culinary Arts</h4>
           <p>

@@ -12,12 +12,53 @@ const About = () => {
 
   return (
     <div className="about">
+      <h3>WHY WE DOING THIS</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
+        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
+        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
+        quis risus luctus, varius libero sed, volutpat tellus. Aenean finibus
+        lacus ut sagittis accumsan. Praesent porttitor faucibus velit, nec
+        maximus lectus euismod at. Mauris finibus egestas laoreet. 
+      </p>
+      <h3>WHO ARE WE</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
+        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
+        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
+        quis risus luctus, varius libero sed, volutpat tellus. Aenean finibus
+        lacus ut sagittis accumsan. Praesent porttitor faucibus velit, nec
+        maximus lectus euismod at. Mauris finibus egestas laoreet. 
+      </p>
+      <h3>HOW LONG ARE WE DOING THIS</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
+        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
+        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
+        quis risus luctus, varius libero sed, volutpat tellus. 
+      </p>
+      <h3>HOW WE STARTED</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
+        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
+        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
+        quis risus luctus, varius libero sed, volutpat tellus. Aenean finibus
+        lacus ut sagittis accumsan. Praesent porttitor faucibus velit, nec
+        maximus lectus euismod at. Mauris finibus egestas laoreet. 
+      </p>
+      <h3>WHAT IS THE DIFFERENCE FROM OTHERS</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia enim
+        in nisi ullamcorper, sit amet vestibulum nulla vehicula. Nulla facilisi.
+        Mauris orci sapien, fermentum ut ante nec, vehicula lobortis leo. Morbi
+        quis risus luctus, varius libero sed, volutpat tellus. Aenean finibus
+        lacus ut sagittis accumsan. Praesent porttitor faucibus velit, nec
+        maximus lectus euismod at. Mauris finibus egestas laoreet. 
+      </p>
       <h3>
         <u>AHUM CHARITABLE TRUST</u>
       </h3>
-      <div className="about-image-div">
-        <img src={photo4} alt="trustees" className="about-image" />
-      </div>
+
       <div className="about-image-div">
         <img src={photo11} alt="trustees" className="about-image" />
       </div>
@@ -414,25 +455,6 @@ const About = () => {
             )}
           </>
         )}
-      </p>
-
-      <h3>THE PROPERTIES OF THE TRUST </h3>
-      <p>
-        The Author hereby set apart a corpus Rs.1000/ -(Rupees one Thousand
-        Only)for the object of the trust which will be reserved for the
-        sustenance of the trust.The author in order to arrangement funds for the
-        objects stated above empowers the Board of trustees to receive donation,
-        gifts, voluntary contribution, grant in aid, assistance from the donors
-        either towards corpus or for the revenue expenditure for the religious,
-        educational & charitable purposes as contemplated in the object clause
-        from all i.e. Individual, Government, Institutional donors either in
-        India or Abroad for the furtherance of the objects as specified in the
-        object clause.
-      </p>
-      <h3>ADMINISTRATION OF THE TRUST</h3>
-      <p>
-        The administration of the TRUST shall vest with the Board of Trustees,
-        which consist of Managing Trustee and other trustee.
       </p>
     </div>
   );

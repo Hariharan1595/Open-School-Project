@@ -10,6 +10,10 @@ import club_icon_7 from "../assets/images/Icon Container-7.png";
 import club_icon_8 from "../assets/images/Icon Container-8.png";
 import club_icon_9 from "../assets/images/Icon Container-9.png";
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+
 import img_1 from "../assets/images/DSC_5195.jpeg";
 import img_2 from "../assets/images/DSC_5621.jpeg";
 import img_3 from "../assets/images/DSC_5591.jpeg";
@@ -22,6 +26,27 @@ import celebration from "../assets/images/DSC_5504.jpeg";
 import sps from "../assets/images/SpS.jpeg";
 import sps2 from "../assets/images/DSC_3528.jpeg";
 
+
+const responsive2 = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 1024 },
+    items: 3,
+    slidesToSlide: 2,
+  },
+  desktop: {
+    breakpoint: { max: 1024, min: 710 },
+    items: 2,
+  },
+  tablet: {
+    breakpoint: { max: 710, min: 464 },
+    items: 1,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 
 const Studentlife = () => {
@@ -43,58 +68,60 @@ const Studentlife = () => {
         </div>
       </div>
       <div className="clubs">
-        <div className="club-card">
-          <img src={club_icon_1} alt="" className="club-icon" />
-          <h4>Sports and Athletics</h4>
-          <p>
-            Students can participate in various sports, from soccer and
-            basketball to gymnastics and yoga. Sports help promote teamwork,
-            physical fitness, and a sense of discipline.
-          </p>
-        </div>
-        <div className="club-card">
-          <img src={club_icon_2} alt="" className="club-icon" />
-          <h4>Art and Creativity</h4>
-          <p>
-            Our art classes and creative workshops provide a platform for
-            students to express their creativity through painting, drawing, and
-            other artistic forms.
-          </p>
-        </div>
-        <div className="club-card">
-          <img src={club_icon_3} alt="" className="club-icon" />
-          <h4>Music and Performing Arts</h4>
-          <p>
-            Students can discover their musical talents through singing, playing
-            musical instruments, and participating in drama and theater
-            performances.
-          </p>
-        </div>
-        <div className="club-card">
-          <img src={club_icon_4} alt="" className="club-icon" />
-          <h4>Language Clubs</h4>
-          <p>
-            Language clubs offer an opportunity for students to immerse
-            themselves in different languages and cultures, fostering global
-            awareness.
-          </p>
-        </div>
-        <div className="club-card">
-          <img src={club_icon_5} alt="" className="club-icon" />
-          <h4>Science Club</h4>
-          <p>
-            The science club allows young scientists to explore the wonders of
-            science through fun experiments and hands-on learning.
-          </p>
-        </div>
-        <div className="club-card">
-          <img src={club_icon_6} alt="" className="club-icon" />
-          <h4>Cooking and Culinary Arts</h4>
-          <p>
-            Cooking classes introduce students to the joys of preparing and
-            tasting delicious and healthy meals.
-          </p>
-        </div>
+        <Carousel showDots={true} responsive={responsive2}>
+          <div className="club-card">
+            <img src={club_icon_1} alt="" className="club-icon" />
+            <h4>Sports and Athletics</h4>
+            <p>
+              Students can participate in various sports, from soccer and
+              basketball to gymnastics and yoga. Sports help promote teamwork,
+              physical fitness, and a sense of discipline.
+            </p>
+          </div>
+          <div className="club-card">
+            <img src={club_icon_2} alt="" className="club-icon" />
+            <h4>Art and Creativity</h4>
+            <p>
+              Our art classes and creative workshops provide a platform for
+              students to express their creativity through painting, drawing,
+              and other artistic forms.
+            </p>
+          </div>
+          <div className="club-card">
+            <img src={club_icon_3} alt="" className="club-icon" />
+            <h4>Music and Performing Arts</h4>
+            <p>
+              Students can discover their musical talents through singing,
+              playing musical instruments, and participating in drama and
+              theater performances.
+            </p>
+          </div>
+          <div className="club-card">
+            <img src={club_icon_4} alt="" className="club-icon" />
+            <h4>Language Clubs</h4>
+            <p>
+              Language clubs offer an opportunity for students to immerse
+              themselves in different languages and cultures, fostering global
+              awareness.
+            </p>
+          </div>
+          <div className="club-card">
+            <img src={club_icon_5} alt="" className="club-icon" />
+            <h4>Science Club</h4>
+            <p>
+              The science club allows young scientists to explore the wonders of
+              science through fun experiments and hands-on learning.
+            </p>
+          </div>
+          <div className="club-card">
+            <img src={club_icon_6} alt="" className="club-icon" />
+            <h4>Cooking and Culinary Arts</h4>
+            <p>
+              Cooking classes introduce students to the joys of preparing and
+              tasting delicious and healthy meals.
+            </p>
+          </div>
+        </Carousel>
       </div>
       <div className="text-1">
         <h2>Our Features</h2>
@@ -175,30 +202,32 @@ const Studentlife = () => {
         <img src={sps} alt="trustees" className="about-image" />
       </div>
       <div className="clubs">
-        <div className="club-card">
-          <img src={club_icon_7} alt="" className="club-icon" />
-          <h4>Counseling</h4>
-          <p>
-            Professional counselors offer guidance and support to students,
-            addressing their emotional and social well-being.
-          </p>
-        </div>
-        <div className="club-card">
-          <img src={club_icon_8} alt="" className="club-icon" />
-          <h4>Learning Support</h4>
-          <p>
-            Our educators provide additional assistance to students who may
-            require extra support in their academic journey.
-          </p>
-        </div>
-        <div className="club-card">
-          <img src={club_icon_9} alt="" className="club-icon" />
-          <h4>Parent-Teacher Collaboration</h4>
-          <p>
-            We foster a strong partnership with parents to ensure seamless
-            communication and mutual support in a child's development.
-          </p>
-        </div>
+        <Carousel showDots={true} responsive={responsive2}>
+          <div className="club-card">
+            <img src={club_icon_7} alt="" className="club-icon" />
+            <h4>Counseling</h4>
+            <p>
+              Professional counselors offer guidance and support to students,
+              addressing their emotional and social well-being.
+            </p>
+          </div>
+          <div className="club-card">
+            <img src={club_icon_8} alt="" className="club-icon" />
+            <h4>Learning Support</h4>
+            <p>
+              Our educators provide additional assistance to students who may
+              require extra support in their academic journey.
+            </p>
+          </div>
+          <div className="club-card">
+            <img src={club_icon_9} alt="" className="club-icon" />
+            <h4>Parent-Teacher Collaboration</h4>
+            <p>
+              We foster a strong partnership with parents to ensure seamless
+              communication and mutual support in a child's development.
+            </p>
+          </div>
+        </Carousel>
       </div>
       <div className="about-image-div">
         <img src={sps2} alt="trustees" className="about-image" />
