@@ -37,7 +37,7 @@ import CE from "../assets/images/DSC_3458.jpeg";
 import p1 from "../assets/images/photo15.jpeg";
 import p2 from "../assets/images/photo14.jpeg";
 
-const images = [photo1,photo2,photo3,photo4,board,AP,SSS,CE,p1,p2,EA,students,photo5,photo6,photo7,photo8,photo9,photo11,photo12,photo13,photo14,img_1,img_2,img_3,img_4,img_5,img_6,img_7,img_8,sps]
+const images = [photo1,photo2,photo3,photo4,board,AP,SSS,CE,p1,p2,EA,students,photo5,photo6,photo7,photo8,photo9,photo11,photo12,photo13,photo14,img_1,img_2,img_3,img_4,img_5,img_6,img_8,sps]
 
 const ImageGallery = () => {
   const [academics, setAcademics] = useState(false);
