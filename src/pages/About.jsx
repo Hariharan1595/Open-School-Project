@@ -2,6 +2,14 @@ import React, { useState } from "react";
 import "./About.css";
 import photo4 from "../assets/images/photo5.jpeg";
 import photo11 from "../assets/images/photo12.jpeg";
+import img_2 from "../assets/images/DSC_5621.jpeg";
+import img_3 from "../assets/images/DSC_5591.jpeg";
+import img_4 from "../assets/images/DSC_5591.jpeg";
+
+import img_5 from "../assets/images/182A0720.jpeg";
+import img_6 from "../assets/images/DSC_3709.jpeg";
+import ImageWithPlaceholder from "../components/ImageWithPlaceholder";
+import placeholder from "../assets/images/placeholder-image.png";
 
 const About = () => {
   const [readMore, setReadMore] = useState(false);
@@ -13,6 +21,7 @@ const About = () => {
   return (
     <div className="about">
       <h3>WHY WE DOING THIS</h3>
+
       <p>
         At AHUM Academy of Open Schooling, we believe that education should be
         accessible to everyone, regardless of their financial situation. Many
@@ -22,7 +31,16 @@ const About = () => {
         schooling, we empower students with the knowledge and skills they need
         to build a better future for themselves and their communities.
       </p>
+      <div className="about-image-div">
+        <ImageWithPlaceholder
+          src={img_2}
+          placeholder={placeholder}
+          alt="srudents-image"
+          className="about-image"
+        />
+      </div>
       <h3>WHO ARE WE</h3>
+
       <p>
         We are AHUM Academy of Open Schooling, run by AHUM Charitable Trust. Our
         non-profit organization is dedicated to making education accessible for
@@ -31,7 +49,16 @@ const About = () => {
         provide a range of educational resources and support to ensure that
         every student has the opportunity to learn and grow.
       </p>
+      <div className="about-image-div">
+        <ImageWithPlaceholder
+          src={img_3}
+          placeholder={placeholder}
+          alt="students-image"
+          className="about-image"
+        />
+      </div>
       <h3>HOW LONG WE HAVE BEEN DOING THIS DOING THIS</h3>
+
       <p>
         AHUM Academy of Open Schooling has been making a difference in education
         for the past three years. Since our inception, we have been dedicated to
@@ -39,7 +66,16 @@ const About = () => {
         In these three years, we have helped numerous students achieve their
         educational goals and realize their potential.
       </p>
+      <div className="about-image-div">
+        <ImageWithPlaceholder
+          src={img_5}
+          placeholder={placeholder}
+          alt="srudents-image"
+          className="about-image"
+        />
+      </div>
       <h3>HOW WE STARTED</h3>
+
       <p>
         Our journey began three years ago with a simple yet powerful vision: to
         make quality education available to all. AHUM Charitable Trust
@@ -48,7 +84,16 @@ const About = () => {
         grown into a trusted institution that is making a significant impact in
         the lives of students.
       </p>
+      <div className="about-image-div">
+        <ImageWithPlaceholder
+          src={img_6}
+          placeholder={placeholder}
+          alt="srudents-image"
+          className="about-image"
+        />
+      </div>
       <h3>WHAT IS THE DIFFERENCE FROM OTHERS</h3>
+
       <p>
         What sets AHUM Academy of Open Schooling apart is our hands-on approach
         and dedication to student success. In addition to offering open
@@ -59,6 +104,14 @@ const About = () => {
         student support, we are making a difference in education one student at
         a time.
       </p>
+      <div className="about-image-div">
+        <ImageWithPlaceholder
+          src={img_4}
+          placeholder={placeholder}
+          alt="srudents-image"
+          className="about-image"
+        />
+      </div>
       <h3>
         <u>AHUM CHARITABLE TRUST</u>
       </h3>

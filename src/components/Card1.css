@@ -15,6 +15,7 @@
   width: 100%;
   width: 623px;
   height: 360px;
+  border-radius: 10px;
 }
 .card-content {
   width: 60%;

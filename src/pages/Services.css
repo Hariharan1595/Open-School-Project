@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   width: 440px;
-  height: 356px;
+ 
   border-radius: 15px;
   border-width: 1px 8px 8px 1px;
   border-style: solid;
@@ -33,9 +33,10 @@
 
 .box-title {
   font-family: "Jockey One", sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 400;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .testimonial-box {
@@ -80,7 +81,7 @@
 .box-image{
   width: 90%;
   margin-top: 0.5rem;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 /* Small Mobile Phones */
@@ -90,7 +91,7 @@
   /* Additional styles for mobile phones */
   .service-box {
     width: 200px;
-    height: 196px;
+   
     border-radius: 9px;
     gap: 9px;
     border-width: 1px 5px 5px 1px;
@@ -137,7 +138,7 @@
   /* Additional styles for small mobile phones */
   .service-box {
     max-width: 150px;
-    height: 146px;
+  
     border-radius: 9px;
     gap: 9px;
     border-width: 1px 5px 5px 1px;
@@ -181,7 +182,7 @@
   /* Additional styles for tablets in portrait mode */
   .service-box {
     width: 170px;
-    height: 146px;
+   
     border-radius: 9px;
     gap: 9px;
     border-width: 1px 5px 5px 1px;
@@ -218,7 +219,7 @@
   /* Additional styles for tablets in landscape mode */
   .service-box {
     width: 250px;
-    height: 266px;
+   
     border-radius: 11px;
     gap: 12px;
   }
@@ -252,7 +253,7 @@
   /* Additional styles for small laptops */
   .service-box {
     width: 350px;
-    height: 356px;
+    
     border-radius: 13px;
     gap: 15px;
   }

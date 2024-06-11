@@ -38,12 +38,13 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+    padding: 10px;
     
 }
 .features-img img{
     width: 280px;
-    flex-basis: 38%;   
-    margin-bottom: 1rem;
+    flex-basis: 38%;  
+    border-radius: 10px;
 }
 .features-card{
     width: 320px;

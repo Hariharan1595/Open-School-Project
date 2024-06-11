@@ -8,6 +8,9 @@ import SSS from "../assets/images/DSC_3483.jpeg";
 import CE from "../assets/images/DSC_3458.jpeg";
 import p1 from "../assets/images/photo15.jpeg";
 import p2 from "../assets/images/photo14.jpeg";
+import placeholder from "../assets/images/placeholder-image.png";
+import ImageWithPlaceholder from "../components/ImageWithPlaceholder";
+import p_placeholder from "../assets/images/pp-placeholder.png";
 
 const Services = () => {
   return (
@@ -16,28 +19,40 @@ const Services = () => {
         <div className="service-title">Our Services</div>
         <div className="boxes-section">
           <div className="service-box">
-            <img src={AP} alt="Academic programs" className="box-image" />
+            <ImageWithPlaceholder
+              src={AP}
+              placeholder={placeholder}
+              alt="Academic programs"
+              className="box-image"
+            />
             <div className="box-title">Academic Programs</div>
           </div>
           <div className="service-box">
-            <img
-              
+            <ImageWithPlaceholder
               src={EA}
-              alt="Extracurricular Activities"
+              placeholder={placeholder}
+              alt="Extracurricular activities"
               className="box-image"
             />
             <div className="box-title">Extracurricular Activities</div>
           </div>
           <div className="service-box">
-            <img
+            <ImageWithPlaceholder
               src={SSS}
-              alt="Student Support Services"
+              placeholder={placeholder}
+              alt="sss"
               className="box-image"
             />
             <div className="box-title">Student Support Services</div>
           </div>
           <div className="service-box">
-            <img src={CE} alt="Community Engagement" className="box-image" />
+            <ImageWithPlaceholder
+              src={CE}
+              placeholder={placeholder}
+              alt="ce"
+              className="box-image"
+            />
+
             <div className="box-title">Community Engagement</div>
           </div>
         </div>
@@ -47,9 +62,14 @@ const Services = () => {
         <div className="service-title">Student Testimonials</div>
         <div className="testimonial-box">
           <div className="customer-feedback">
-            <img className="customer-img" src={p1} alt="customer1" />" I am
-            proud to be part of this incredible school. The dedication of our
-            teachers and the commitment to academic excellence create an
+            <ImageWithPlaceholder
+              src={p1}
+              placeholder={p_placeholder}
+              alt="customer1"
+              className="customer-img"
+            />
+            " I am proud to be part of this incredible school. The dedication of
+            our teachers and the commitment to academic excellence create an
             inspiring learning environment. The variety of extracurricular
             activities offered here, from sports to arts, allows us to develop
             our skills and interests beyond the classroom. With modern
@@ -57,8 +77,13 @@ const Services = () => {
             for the future." - Mohamed
           </div>
           <div className="customer-feedback">
-            <img className="customer-img" src={p2} alt="customer1" />" The
-            quality of education and the dedication of our teachers are
+            <ImageWithPlaceholder
+              src={p2}
+              placeholder={p_placeholder}
+              alt="customer2"
+              className="customer-img"
+            />
+            " The quality of education and the dedication of our teachers are
             exceptional. Our school not only focuses on academics but also
             encourages participation in various extracurricular activities,
             which helps in overall development. The well-maintained facilities

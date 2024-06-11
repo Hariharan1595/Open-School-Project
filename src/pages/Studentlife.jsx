@@ -12,7 +12,8 @@ import club_icon_9 from "../assets/images/Icon Container-9.png";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
+import sps2 from "../assets/images/DSC_3528.jpeg";
+import ImageWithPlaceholder from "../components/ImageWithPlaceholder";
 
 import img_1 from "../assets/images/DSC_5195.jpeg";
 import img_2 from "../assets/images/DSC_5621.jpeg";
@@ -24,8 +25,8 @@ import photo1 from "../assets/images/photo1.jpeg";
 import photo7 from "../assets/images/DSC_5613.jpeg";
 import celebration from "../assets/images/DSC_5504.jpeg";
 import sps from "../assets/images/SpS.jpeg";
-import sps2 from "../assets/images/DSC_3528.jpeg";
 
+import placeholder from "../assets/images/placeholder-image.png";
 
 const responsive2 = {
   superLargeDesktop: {
@@ -48,7 +49,6 @@ const responsive2 = {
   },
 };
 
-
 const Studentlife = () => {
   return (
     <div className="student-life">
@@ -64,13 +64,19 @@ const Studentlife = () => {
           array of extracurricular activities, including
         </p>
         <div className="about-image-div">
-          <img src={photo1} alt="trustees" className="about-image" />
+          <ImageWithPlaceholder
+            src={photo1}
+            placeholder={placeholder}
+            alt="students-image"
+            className="about-image"
+          />
         </div>
       </div>
       <div className="clubs">
         <Carousel showDots={true} responsive={responsive2}>
           <div className="club-card">
             <img src={club_icon_1} alt="" className="club-icon" />
+
             <h4>Sports and Athletics</h4>
             <p>
               Students can participate in various sports, from soccer and
@@ -133,15 +139,30 @@ const Studentlife = () => {
           community together. Some of our memorable events include
         </p>
         <div className="about-image-div">
-          <img src={photo7} alt="trustees" className="about-image" />
+          <ImageWithPlaceholder
+            src={photo7}
+            placeholder={placeholder}
+            alt="students-image"
+            className="about-image"
+          />
         </div>
         <div className="about-image-div">
-          <img src={celebration} alt="trustees" className="about-image" />
+          <ImageWithPlaceholder
+            src={celebration}
+            placeholder={placeholder}
+            alt="students-image"
+            className="about-image"
+          />
         </div>
       </div>
       <div className="celebration">
         <div className="celebration-card celebration-bg-1">
-          <img src={img_1} alt="" />
+          <ImageWithPlaceholder
+            src={img_1}
+            placeholder={placeholder}
+            alt="sports-day"
+            className=""
+          />
           <h4>Annual Sports Day</h4>
           <p>
             A day filled with friendly competition, team spirit, and
@@ -149,7 +170,12 @@ const Studentlife = () => {
           </p>
         </div>
         <div className="celebration-card celebrati1on-bg-2">
-          <img src={img_2} alt="" />
+          <ImageWithPlaceholder
+            src={img_2}
+            placeholder={placeholder}
+            alt="sports-day"
+            className=""
+          />
           <h4>Cultural Festivals</h4>
           <p>
             Celebrations of diverse cultural festivals, promoting cultural
@@ -157,7 +183,12 @@ const Studentlife = () => {
           </p>
         </div>
         <div className="celebration-card celebration-bg-1">
-          <img src={img_3} alt="" />
+          <ImageWithPlaceholder
+            src={img_3}
+            placeholder={placeholder}
+            alt="sports-day"
+            className=""
+          />
           <h4>Art Exhibitions</h4>
           <p>
             Showcasing our students' artistic talents through exhibitions and
@@ -165,7 +196,12 @@ const Studentlife = () => {
           </p>
         </div>
         <div className="celebration-card celebration-bg-1">
-          <img src={img_4} alt="" />
+          <ImageWithPlaceholder
+            src={img_4}
+            placeholder={placeholder}
+            alt="sports-day"
+            className=""
+          />
           <h4>Science Fair</h4>
           <p>
             A platform for budding scientists to present their innovative
@@ -173,7 +209,12 @@ const Studentlife = () => {
           </p>
         </div>
         <div className="celebration-card celebrati1on-bg-2 ">
-          <img src={img_5} alt="" />
+          <ImageWithPlaceholder
+            src={img_5}
+            placeholder={placeholder}
+            alt="sports-day"
+            className=""
+          />
           <h4>International Day</h4>
           <p>
             A vibrant celebration of our diverse community, embracing cultures
@@ -181,7 +222,12 @@ const Studentlife = () => {
           </p>
         </div>
         <div className="celebration-card celebrati1on-bg-1">
-          <img src={img_6} alt="" />
+          <ImageWithPlaceholder
+            src={img_6}
+            placeholder={placeholder}
+            alt="sports-day"
+            className=""
+          />
           <h4>Graduation Ceremony</h4>
           <p>
             A significant milestone as our Kindergarten students prepare to
@@ -199,7 +245,13 @@ const Studentlife = () => {
         </p>
       </div>
       <div className="about-image-div">
-        <img src={sps} alt="trustees" className="about-image" />
+        
+        <ImageWithPlaceholder
+          src={sps}
+          placeholder={placeholder}
+          alt="teacher"
+          className="about-image"
+        />
       </div>
       <div className="clubs">
         <Carousel showDots={true} responsive={responsive2}>
@@ -230,7 +282,12 @@ const Studentlife = () => {
         </Carousel>
       </div>
       <div className="about-image-div">
-        <img src={sps2} alt="trustees" className="about-image" />
+        <ImageWithPlaceholder
+          src={sps2}
+          placeholder={placeholder}
+          alt="students-image"
+          className="about-image"
+        />
       </div>
     </div>
   );

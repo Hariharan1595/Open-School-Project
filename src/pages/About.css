@@ -1,59 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
+.about {
+  margin: 1rem auto;
+}
+.about-image-div {
+  width: 50%;
+  margin: 0px auto;
+}
+.about-image {
+  width: 100%;
+  border-radius: 20px;
+}
+.about a {
+  color: #000000;
+  font-family: "Jockey One", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 8rem;
+  display: block;
+}
+.about a span {
+  color: rgba(73, 179, 255, 1);
+  margin: 0 0.1rem;
+}
+.about h3 {
+  color: rgba(73, 179, 255, 1);
+  margin: 2rem auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 75%;
+}
+.about p {
+  font-family: "Judson", serif;
+  color: rgba(0, 0, 0, 0.85);
+  width: 75%;
+  margin: 1rem auto;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
-.about{
-    
-    margin: 1rem auto;
-}
-.about-image-div{
-    width: 50%;
-    margin: 0px auto;
-}
-.about-image{
-    width: 100%;
-    border-radius: 20px;
- 
-}
-.about a{
-    color: #000000;
-    font-family: "Jockey One", sans-serif;
+@media (min-width: 1441px) {
+  .about h3 {
+    font-size: 2rem;
+    width: 75%;
+  }
+  .about p {
     font-size: 1.5rem;
-    letter-spacing: 2px;
-    margin-bottom: 8rem;
-    display: block;
-}
-.about a span{
-    color:  rgba(73, 179, 255, 1);
-    margin: 0 .1rem;
-}
-.about h3{
-    color: rgba(73, 179, 255, 1);
-    margin: 2rem auto;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 25px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-align: center;
-}
-.about p{
-    font-family: "Judson", serif;
-    color:rgba(0, 0, 0, 0.85);
-    width:75%;
-    margin: 1rem auto;
-    font-size: 1.7rem;
-    line-height: 1.4;
-
+    width: 75%;
+  }
 }
 
-@media(max-width:720px){
-    .about-image-div{
-        width: 100%;
-    }
-    .about p{
-        font-size: 1rem;
-        width: 90%;
-    }
-    .about a{
-        font-size: .8rem;
-        margin-bottom: 4.5rem;
-    }
+@media (max-width: 720px) {
+  .about-image-div {
+    width: 70%;
+  }
+  .about p {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .about a {
+    font-size: 0.8rem;
+    margin-bottom: 4.5rem;
+  }
 }

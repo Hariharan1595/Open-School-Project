@@ -44,10 +44,11 @@
   align-items: center;
   row-gap: 40px;
   gap: 30px;
+  padding:10px;
 }
 .club-card1{
   width: 20rem;
-   height: 15rem;
+  
   border: 2px solid black;
   padding: 2rem;
   font-size: 1rem;
@@ -96,9 +97,10 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
+  padding: 10px;
 }
 .celebration-card {
-  width: 21rem;
+  width: 16rem;
   padding: 2rem;
   border: 1px solid black;
   border-radius: 10px;
@@ -116,8 +118,9 @@
   background-position-y: 55%;
 }
 .celebration-card img {
-  width: 280px;
+  width: 100%;
   margin-bottom: 0.5rem;
+  border-radius: 10px;
 }
 .celebration-card h4 {
   margin: 0.7rem 0;
@@ -149,6 +152,10 @@
 }
 @media (max-width:426px){
   .club-card{
+    width: 13rem;
+    margin: 0 auto;
+  }
+  .club-card1{
     width: 13rem;
     margin: 0 auto;
   }

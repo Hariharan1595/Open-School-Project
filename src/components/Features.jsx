@@ -7,7 +7,8 @@ import Learn_4 from "../assets/images/DSC_5195.jpeg";
 import Learn_5 from "../assets/images/DSC_5601.jpeg";
 import Learn_6 from "../assets/images/DSC_5086.jpeg";
 
-import shape_img from "../assets/images/Shape.png";
+import placeholder from "../assets/images/placeholder-image.png";
+import ImageWithPlaceholder from "./ImageWithPlaceholder";
 
 
 const Features = () => {
@@ -27,17 +28,33 @@ const Features = () => {
       <div className="features-img">
         <div className="features-card">
           <span className="shape"></span>
-          <img src={Learn_1} alt="" />
+          <ImageWithPlaceholder
+            src={Learn_1}
+            placeholder={placeholder}
+            alt=""
+            className=""
+          />
+
           <h4>Language Arts</h4>
           <p>Reading, writing, storytelling, and communication skills.</p>
         </div>
         <div className="features-card">
-          <img src={Learn_2} alt="" />
+          <ImageWithPlaceholder
+            src={Learn_2}
+            placeholder={placeholder}
+            alt=""
+            className=""
+          />
           <h4>Mathematics</h4>
           <p>Number sense, basic operations, problem-solving, and logic.</p>
         </div>
         <div className="features-card">
-          <img src={Learn_3} alt="" />
+          <ImageWithPlaceholder
+            src={Learn_3}
+            placeholder={placeholder}
+            alt=""
+            className=""
+          />
           <h4>Science</h4>
           <p>
             Exploring the natural world through hands-on experiments and
@@ -45,19 +62,34 @@ const Features = () => {
           </p>
         </div>
         <div className="features-card">
-          <img src={Learn_4} alt="" />
+          <ImageWithPlaceholder
+            src={Learn_4}
+            placeholder={placeholder}
+            alt=""
+            className=""
+          />
           <h4>Social Studies</h4>
           <p>
             Cultivating an understanding of diverse cultures and communities.
           </p>
         </div>
         <div className="features-card">
-          <img src={Learn_5} alt="" />
+          <ImageWithPlaceholder
+            src={Learn_5}
+            placeholder={placeholder}
+            alt=""
+            className=""
+          />
           <h4>Arts and Crafts</h4>
           <p>Encouraging creativity through various art forms and crafts.</p>
         </div>
         <div className="features-card">
-          <img src={Learn_6} alt="" />
+          <ImageWithPlaceholder
+            src={Learn_6}
+            placeholder={placeholder}
+            alt=""
+            className=""
+          />
           <h4>Physical Education</h4>
           <p>Promoting physical fitness, coordination, and teamwork.</p>
         </div>

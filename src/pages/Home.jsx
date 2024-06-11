@@ -1,9 +1,10 @@
 import React from "react";
 import bannerImage from "../assets/images/banner image.jpg";
 import "./Home.css";
-import Container from "../assets/images/Container.png";
+
 import Card1 from "../components/Card1";
 import { serviceData } from "../data";
+import ImageWithPlaceholder from "../components/ImageWithPlaceholder";
 import students from "../assets/images/students2.jpeg";
 import board from "../assets/images/board2.jpeg";
 
@@ -13,9 +14,8 @@ import club_icon_3 from "../assets/images/Icon Container-3.png";
 import club_icon_4 from "../assets/images/Icon Container-4.png";
 import club_icon_5 from "../assets/images/Icon Container-5.png";
 import club_icon_6 from "../assets/images/Icon Container-6.png";
-import club_icon_7 from "../assets/images/Icon Container-7.png";
-import club_icon_8 from "../assets/images/Icon Container-8.png";
-import club_icon_9 from "../assets/images/Icon Container-9.png";
+
+import placeholder from "../assets/images/placeholder-image.png"
 
 const Home = () => {
   return (
@@ -25,7 +25,8 @@ const Home = () => {
         <span className="blue-text">Dreams Take Flight</span>
       </h1>
       <div className="banner-image">
-        <img src={bannerImage} />
+        
+        <ImageWithPlaceholder src={bannerImage} placeholder={placeholder} alt="banner" />
       </div>
 
       <div className="subsection">
@@ -94,11 +95,13 @@ const Home = () => {
       <div className="service-section">
         <Card1
           title={serviceData[0].title}
+          placeholder={placeholder}
           image={board}
           content={serviceData[0].content}
         />
         <Card1
           title={serviceData[1].title}
+          placeholder={placeholder}
           image={students}
           content={serviceData[1].content}
         />

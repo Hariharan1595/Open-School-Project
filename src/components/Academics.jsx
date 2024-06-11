@@ -7,6 +7,9 @@ import profile_4 from "../assets/images/img-4.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import photo12 from "../assets/images/182A0902.jpeg";
+import ImageWithPlaceholder from "./ImageWithPlaceholder";
+import placeholder from "../assets/images/placeholder-image.png";
+import p_placeholder from "../assets/images/pp-placeholder.png";
 
 import { FacultyData } from "../data";
 
@@ -45,7 +48,13 @@ export const responsive = {
 function Product(props) {
   return (
     <div className="faculty-card">
-      <img className="product--image" src={props.url} alt="product image" />
+      <ImageWithPlaceholder
+        src={props.url}
+        placeholder={p_placeholder}
+        alt="faculty-image"
+        className="product--image"
+      />
+
       <div className="profile-details">
         <h2 className="profile-name">{props.name}</h2>
         <p className="price">{props.price}</p>
@@ -55,19 +64,14 @@ function Product(props) {
   );
 }
 
-
-
 const Academics = () => {
-
-  const product = FacultyData.map((item,index) => 
-    (
+  const product = FacultyData.map((item, index) => (
     <Product
       name={item.name}
       url={photos[index]}
       price={item.price}
       description={item.description}
     />
-    
   ));
 
   return (
@@ -82,7 +86,12 @@ const Academics = () => {
         practices, preparing students to thrive in a rapidly changing world.
       </p>
       <div className="about-image-div">
-        <img src={photo12} alt="trustees" className="about-image" />
+        <ImageWithPlaceholder
+          src={photo12}
+          placeholder={placeholder}
+          alt="srudents-image"
+          className="about-image"
+        />
       </div>
 
       <div className="profile">

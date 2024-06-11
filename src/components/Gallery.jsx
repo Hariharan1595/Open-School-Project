@@ -5,6 +5,9 @@ import gal_2 from "../assets/images/gal-2.png";
 import gal_3 from "../assets/images/gal-3.png";
 import gal_4 from "../assets/images/gal-4.png";
 import photo6 from "../assets/images/DSC_5181.jpeg";
+import placeholder from "../assets/images/placeholder-image.png";
+import ImageWithPlaceholder from "./ImageWithPlaceholder";
+
 const Gallery = () => {
   return (
     <div className="gallery">
@@ -32,7 +35,13 @@ const Gallery = () => {
         <img src={gal_4} alt="" />
       </div>
       <div className="about-image-div">
-        <img src={photo6} alt="trustees" className="about-image" />
+        <ImageWithPlaceholder
+          src={photo6}
+          placeholder={placeholder}
+          alt="students-image"
+          className="about-image"
+        />
+        
       </div>
     </div>
   );
