@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImage from "../assets/images/banner image.jpg";
+import bannerImage from "../assets/images/banner2.jpg";
 import "./Home.css";
 
 import Card1 from "../components/Card1";
@@ -22,7 +22,7 @@ const Home = () => {
     <div className="home">
       <h1 className="heading">
         Where young minds blossom and{" "}
-        <span className="blue-text">Dreams Take Flight</span>
+        <span className="heading-span">Dreams Take Flight</span>
       </h1>
       <div className="banner-image">
         
