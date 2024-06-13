@@ -21,7 +21,14 @@ const About = () => {
   return (
     <div className="about">
       <h3>WHY WE DOING THIS</h3>
-
+      <div className="about-image-div">
+        <ImageWithPlaceholder
+          src={img_2}
+          placeholder={placeholder}
+          alt="srudents-image"
+          className="about-image"
+        />
+      </div>
       <p>
         At AHUM Academy of Open Schooling, we believe that education should be
         accessible to everyone, regardless of their financial situation. Many
@@ -31,24 +38,8 @@ const About = () => {
         schooling, we empower students with the knowledge and skills they need
         to build a better future for themselves and their communities.
       </p>
-      <div className="about-image-div">
-        <ImageWithPlaceholder
-          src={img_2}
-          placeholder={placeholder}
-          alt="srudents-image"
-          className="about-image"
-        />
-      </div>
-      <h3>WHO ARE WE</h3>
 
-      <p>
-        We are AHUM Academy of Open Schooling, run by AHUM Charitable Trust. Our
-        non-profit organization is dedicated to making education accessible for
-        all. Our team consists of passionate educators, volunteers, and
-        community members who are committed to helping students succeed. We
-        provide a range of educational resources and support to ensure that
-        every student has the opportunity to learn and grow.
-      </p>
+      <h3>WHO ARE WE</h3>
       <div className="about-image-div">
         <ImageWithPlaceholder
           src={img_3}
@@ -57,15 +48,16 @@ const About = () => {
           className="about-image"
         />
       </div>
-      <h3>HOW LONG WE HAVE BEEN DOING THIS DOING THIS</h3>
-
       <p>
-        AHUM Academy of Open Schooling has been making a difference in education
-        for the past three years. Since our inception, we have been dedicated to
-        providing affordable and accessible education to students across India.
-        In these three years, we have helped numerous students achieve their
-        educational goals and realize their potential.
+        We are AHUM Academy of Open Schooling, run by AHUM Charitable Trust. Our
+        non-profit organization is dedicated to making education accessible for
+        all. Our team consists of passionate educators, volunteers, and
+        community members who are committed to helping students succeed. We
+        provide a range of educational resources and support to ensure that
+        every student has the opportunity to learn and grow.
       </p>
+
+      <h3>HOW LONG WE HAVE BEEN DOING THIS DOING THIS</h3>
       <div className="about-image-div">
         <ImageWithPlaceholder
           src={img_5}
@@ -74,16 +66,15 @@ const About = () => {
           className="about-image"
         />
       </div>
-      <h3>HOW WE STARTED</h3>
-
       <p>
-        Our journey began three years ago with a simple yet powerful vision: to
-        make quality education available to all. AHUM Charitable Trust
-        established AHUM Academy of Open Schooling with a firm commitment to
-        breaking down barriers to education. From our humble beginnings, we have
-        grown into a trusted institution that is making a significant impact in
-        the lives of students.
+        AHUM Academy of Open Schooling has been making a difference in education
+        for the past three years. Since our inception, we have been dedicated to
+        providing affordable and accessible education to students across India.
+        In these three years, we have helped numerous students achieve their
+        educational goals and realize their potential.
       </p>
+
+      <h3>HOW WE STARTED</h3>
       <div className="about-image-div">
         <ImageWithPlaceholder
           src={img_6}
@@ -92,8 +83,24 @@ const About = () => {
           className="about-image"
         />
       </div>
-      <h3>WHAT IS THE DIFFERENCE FROM OTHERS</h3>
+      <p>
+        Our journey began three years ago with a simple yet powerful vision: to
+        make quality education available to all. AHUM Charitable Trust
+        established AHUM Academy of Open Schooling with a firm commitment to
+        breaking down barriers to education. From our humble beginnings, we have
+        grown into a trusted institution that is making a significant impact in
+        the lives of students.
+      </p>
 
+      <h3>WHAT IS THE DIFFERENCE FROM OTHERS</h3>
+      <div className="about-image-div">
+        <ImageWithPlaceholder
+          src={img_4}
+          placeholder={placeholder}
+          alt="srudents-image"
+          className="about-image"
+        />
+      </div>
       <p>
         What sets AHUM Academy of Open Schooling apart is our hands-on approach
         and dedication to student success. In addition to offering open
@@ -104,14 +111,7 @@ const About = () => {
         student support, we are making a difference in education one student at
         a time.
       </p>
-      <div className="about-image-div">
-        <ImageWithPlaceholder
-          src={img_4}
-          placeholder={placeholder}
-          alt="srudents-image"
-          className="about-image"
-        />
-      </div>
+
       <h3>
         <u>AHUM CHARITABLE TRUST</u>
       </h3>
