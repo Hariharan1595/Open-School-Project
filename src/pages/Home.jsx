@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImage from "../assets/images/banner2.jpg";
+import bannerImage from "../assets/images/banner2.jpeg";
 import "./Home.css";
 
 import Card1 from "../components/Card1";
@@ -26,7 +26,7 @@ const Home = () => {
       </h1>
       <div className="banner-image">
         
-        <ImageWithPlaceholder src={bannerImage} placeholder={placeholder} alt="banner" />
+        <ImageWithPlaceholder  src={bannerImage} placeholder={placeholder} alt="banner" />
       </div>
 
       <div className="subsection">
