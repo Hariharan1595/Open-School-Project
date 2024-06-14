@@ -1,6 +1,6 @@
 import React from "react";
 import "./Academics.css";
-import profile_1 from "../assets/images/img-1.png";
+import profile_1 from "../assets/images/faculty1.jpeg";
 import profile_2 from "../assets/images/img-2.png";
 import profile_3 from "../assets/images/img-3.png";
 import profile_4 from "../assets/images/img-4.png";
@@ -18,10 +18,7 @@ const photos = [
   profile_2,
   profile_3,
   profile_4,
-  profile_1,
-  profile_2,
-  profile_3,
-  profile_4,
+ 
 ];
 
 export const responsive = {
@@ -76,7 +73,7 @@ const Academics = () => {
 
   return (
     <div className="academics">
-      <h3>Curriculum Overview</h3>
+      <h3>CURRICULUM OVERVIEW</h3>
       <p>
         Our curriculum blends academic excellence with holistic development,
         fostering critical thinking and creativity. It emphasizes core subjects
@@ -85,14 +82,7 @@ const Academics = () => {
         every student reaches their full potential. Regular updates reflect best
         practices, preparing students to thrive in a rapidly changing world.
       </p>
-      <div className="about-image-div">
-        <ImageWithPlaceholder
-          src={photo12}
-          placeholder={placeholder}
-          alt="srudents-image"
-          className="about-image"
-        />
-      </div>
+      
 
       <div className="profile">
         <h2>FACULTY PROFILE</h2>

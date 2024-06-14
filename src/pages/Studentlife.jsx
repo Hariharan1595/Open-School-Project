@@ -20,7 +20,7 @@ import img_2 from "../assets/images/DSC_5621.jpeg";
 import img_3 from "../assets/images/DSC_5591.jpeg";
 import img_4 from "../assets/images/DSC_3380.jpeg";
 import img_5 from "../assets/images/182A0720.jpeg";
-import img_6 from "../assets/images/DSC_3709.jpeg";
+import img_6 from "../assets/images/GC.jpeg";
 import photo1 from "../assets/images/photo1.jpeg";
 import photo7 from "../assets/images/DSC_5613.jpeg";
 import celebration from "../assets/images/DSC_5504.jpeg";

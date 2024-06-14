@@ -6,7 +6,7 @@ import AP from "../assets/images/DSC_5601.jpeg";
 import EA from "../assets/images/DSC_3706.jpeg";
 import SSS from "../assets/images/DSC_3483.jpeg";
 import CE from "../assets/images/DSC_3458.jpeg";
-import p1 from "../assets/images/photo15.jpeg";
+import p1 from "../assets/images/student1.jpeg";
 import p2 from "../assets/images/photo14.jpeg";
 import placeholder from "../assets/images/placeholder-image.png";
 import ImageWithPlaceholder from "../components/ImageWithPlaceholder";
@@ -74,7 +74,7 @@ const Services = () => {
             activities offered here, from sports to arts, allows us to develop
             our skills and interests beyond the classroom. With modern
             facilities and a supportive community, our school truly prepares us
-            for the future." - Mohamed
+            for the future." - Valarmathi
           </div>
           <div className="customer-feedback">
             <ImageWithPlaceholder

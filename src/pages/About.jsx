@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "./About.css";
 import photo4 from "../assets/images/photo5.jpeg";
 import photo11 from "../assets/images/photo12.jpeg";
-import img_2 from "../assets/images/DSC_5621.jpeg";
-import img_3 from "../assets/images/DSC_5591.jpeg";
-import img_4 from "../assets/images/DSC_5591.jpeg";
+import img_2 from "../assets/images/WWDT.jpeg";
+import img_3 from "../assets/images/wAW.jpeg";
+import img_4 from "../assets/images/DFO.jpeg";
 
-import img_5 from "../assets/images/182A0720.jpeg";
-import img_6 from "../assets/images/DSC_3709.jpeg";
+import img_5 from "../assets/images/HLHVDT.jpeg";
+import img_6 from "../assets/images/HWS.jpeg";
 import ImageWithPlaceholder from "../components/ImageWithPlaceholder";
 import placeholder from "../assets/images/placeholder-image.png";
 

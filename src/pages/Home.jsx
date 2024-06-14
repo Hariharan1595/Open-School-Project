@@ -5,7 +5,7 @@ import "./Home.css";
 import Card1 from "../components/Card1";
 import { serviceData } from "../data";
 import ImageWithPlaceholder from "../components/ImageWithPlaceholder";
-import students from "../assets/images/students2.jpeg";
+import students from "../assets/images/home-fac.jpeg";
 import board from "../assets/images/board2.jpeg";
 
 import club_icon_1 from "../assets/images/Icon Container-1.png";

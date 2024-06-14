@@ -16,6 +16,7 @@
   width: 623px;
   height: 360px;
   border-radius: 10px;
+  object-fit: cover;
 }
 .card-content {
   width: 60%;

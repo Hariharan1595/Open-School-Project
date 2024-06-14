@@ -2,7 +2,7 @@ import React from "react";
 import "./Features.css";
 import Learn_1 from "../assets/images/DSC_4945.jpeg";
 import Learn_2 from "../assets/images/board2.jpeg";
-import Learn_3 from "../assets/images/learn-3.png";
+import Learn_3 from "../assets/images/workshop.jpeg";
 import Learn_4 from "../assets/images/DSC_5195.jpeg";
 import Learn_5 from "../assets/images/DSC_5601.jpeg";
 import Learn_6 from "../assets/images/DSC_5086.jpeg";
@@ -55,7 +55,7 @@ const Features = () => {
             alt=""
             className=""
           />
-          <h4>Science</h4>
+          <h4>workshops</h4>
           <p>
             Exploring the natural world through hands-on experiments and
             investigations.
