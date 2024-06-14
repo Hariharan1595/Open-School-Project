@@ -103,9 +103,9 @@ export const FacultyData = [
   {
     id: 1,
 
-    name: ".............",
-    price: "........",
-    description: "........................",
+    name: "DR. JOE VASANTH B",
+    price: "Mathematics",
+    description: "",
   },
   {
     id: 2,
@@ -128,32 +128,5 @@ export const FacultyData = [
     price: "Teacher",
     description: "Some text about the product..",
   },
-  {
-    id: 1,
-
-    name: "Stella",
-    price: "Teacher",
-    description: "Some text about the product..",
-  },
-  {
-    id: 2,
-
-    name: "Mary",
-    price: "Teacher",
-    description: "Some text about the product..",
-  },
-  {
-    id: 3,
-
-    name: "Amy",
-    price: "Teacher",
-    description: "Some text about the product..",
-  },
-  {
-    id: 4,
-
-    name: "Scarlett",
-    price: "Teacher",
-    description: "Some text about the product..",
-  },
+  
 ];
