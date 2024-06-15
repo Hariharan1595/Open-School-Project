@@ -5,7 +5,7 @@ import "./Home.css";
 import Card1 from "../components/Card1";
 import { serviceData } from "../data";
 import ImageWithPlaceholder from "../components/ImageWithPlaceholder";
-import students from "../assets/images/home-fac.jpeg";
+import students from "../assets/images/home-fac-1.jpeg";
 import board from "../assets/images/board2.jpeg";
 
 import club_icon_1 from "../assets/images/Icon Container-1.png";
@@ -15,7 +15,7 @@ import club_icon_4 from "../assets/images/Icon Container-4.png";
 import club_icon_5 from "../assets/images/Icon Container-5.png";
 import club_icon_6 from "../assets/images/Icon Container-6.png";
 
-import placeholder from "../assets/images/placeholder-image.png"
+import placeholder from "../assets/images/placeholder-image.png";
 
 const Home = () => {
   return (
@@ -25,8 +25,11 @@ const Home = () => {
         <span className="heading-span">Dreams Take Flight</span>
       </h1>
       <div className="banner-image">
-        
-        <ImageWithPlaceholder  src={bannerImage} placeholder={placeholder} alt="banner" />
+        <ImageWithPlaceholder
+          src={bannerImage}
+          placeholder={placeholder}
+          alt="banner"
+        />
       </div>
 
       <div className="subsection">
