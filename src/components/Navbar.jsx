@@ -172,7 +172,7 @@ const Navbar = () => {
                 <label>Phone number:</label>
                 <input
                   type="text"
-                  name="phoneNumber"
+                  name="PhoneNumber"
                   value={formData.PhoneNumber}
                   onChange={handleChange}
                 />
