@@ -98,7 +98,7 @@ const Navbar = () => {
           </li>
           <li>
             {/* <Link to="/gallery">GALLERY</Link> */}
-            <a href="https://open-school-gallery.vercel.app/">GALLERY</a>
+            <Link to="/gallery">GALLERY</Link>
           </li>
           <li>
             <Link to="/about">ABOUT US</Link>
