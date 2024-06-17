@@ -27,6 +27,7 @@ import celebration from "../assets/images/DSC_5504.jpeg";
 import sps from "../assets/images/SpS.jpeg";
 
 import placeholder from "../assets/images/placeholder-image.png";
+import ScrollAnimation from "../components/ScrollAnimation";
 
 const responsive2 = {
   superLargeDesktop: {
@@ -49,34 +50,80 @@ const responsive2 = {
   },
 };
 
+const celebrationData = [
+  {
+    imgSrc: img_1,
+    alt: "sports-day",
+    title: "Annual Sports Day",
+    description:
+      "A day filled with friendly competition, team spirit, and sportsmanship",
+  },
+  {
+    imgSrc: img_2,
+    alt: "cultural-festivals",
+    title: "Cultural Festivals",
+    description:
+      "Celebrations of diverse cultural festivals, promoting cultural exchange and appreciation.",
+  },
+  {
+    imgSrc: img_3,
+    alt: "art-exhibitions",
+    title: "Art Exhibitions",
+    description:
+      "Showcasing our students' artistic talents through exhibitions and displays.",
+  },
+  {
+    imgSrc: img_4,
+    alt: "science-fair",
+    title: "Science Fair",
+    description:
+      "A platform for budding scientists to present their innovative projects and experiments.",
+  },
+  {
+    imgSrc: img_5,
+    alt: "international-day",
+    title: "International Day",
+    description:
+      "A vibrant celebration of our diverse community, embracing cultures from around the world.",
+  },
+  {
+    imgSrc: img_6,
+    alt: "graduation-ceremony",
+    title: "Graduation Ceremony",
+    description:
+      "A significant milestone as our Kindergarten students prepare to embark on their academic journey.",
+  },
+];
+
 const Studentlife = () => {
   return (
     <div className="student-life">
-      <div className="text-1">
-        <h2>Our Features</h2>
-        <h3>Extracurricular Activities</h3>
-
-        <p>
-          At Little Learners Academy, we believe in nurturing well-rounded
-          individuals. Our extracurricular activities offer a diverse range of
-          experiences that complement our academic curriculum and encourage
-          students to explore their interests and passions. We offer a wide
-          array of extracurricular activities, including
-        </p>
-        <div className="about-image-div">
-          <ImageWithPlaceholder
-            src={photo1}
-            placeholder={placeholder}
-            alt="students-image"
-            className="about-image"
-          />
+      <ScrollAnimation direction="bottomToTop">
+        <div className="text-1">
+          <h2>Our Features</h2>
+          <h3>Extracurricular Activities</h3>
+          <p>
+            At Little Learners Academy, we believe in nurturing well-rounded
+            individuals. Our extracurricular activities offer a diverse range of
+            experiences that complement our academic curriculum and encourage
+            students to explore their interests and passions. We offer a wide
+            array of extracurricular activities, including
+          </p>
+          <div className="about-image-div">
+            <ImageWithPlaceholder
+              src={photo1}
+              placeholder={placeholder}
+              alt="students-image"
+              className="about-image"
+            />
+          </div>
         </div>
-      </div>
+      </ScrollAnimation>
+
       <div className="clubs">
         <Carousel showDots={true} responsive={responsive2}>
           <div className="club-card">
             <img src={club_icon_1} alt="" className="club-icon" />
-
             <h4>Sports and Athletics</h4>
             <p>
               Students can participate in various sports, from soccer and
@@ -129,130 +176,86 @@ const Studentlife = () => {
           </div>
         </Carousel>
       </div>
+
       <div className="text-1">
-        <h2>Our Features</h2>
-        <h3>Events & Celebrations</h3>
-        <p>
-          At Little Learners Academy, we celebrate every milestone and create
-          cherished memories for our students. Throughout the year, we host a
-          variety of events and celebrations that bring the entire school
-          community together. Some of our memorable events include
-        </p>
+        <ScrollAnimation direction="bottomToTop">
+          <h2>Our Features</h2>
+          <h3>Events & Celebrations</h3>
+          <p>
+            At Little Learners Academy, we celebrate every milestone and create
+            cherished memories for our students. Throughout the year, we host a
+            variety of events and celebrations that bring the entire school
+            community together. Some of our memorable events include
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation direction="bottomToTop" index={0}>
+          <div className="about-image-div">
+            <ImageWithPlaceholder
+              src={photo7}
+              placeholder={placeholder}
+              alt="students-image"
+              className="about-image"
+            />
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation direction="bottomToTop" index={1}>
+          <div className="about-image-div">
+            <ImageWithPlaceholder
+              src={celebration}
+              placeholder={placeholder}
+              alt="students-image"
+              className="about-image"
+            />
+          </div>
+        </ScrollAnimation>
+      </div>
+
+      
+        <div className="celebration">
+          {celebrationData.map((item, index) => (
+            <ScrollAnimation direction="leftToRight" index={index} key={index}>
+            <div
+              key={index}
+              className="celebration-card 
+                 celebration-bg-2"
+            >
+              <ImageWithPlaceholder
+                src={item.imgSrc}
+                placeholder={placeholder}
+                alt={item.alt}
+                className=""
+              />
+              <h4>{item.title}</h4>
+              <p>{item.description}</p>
+            </div>
+            </ScrollAnimation>
+          ))}
+        </div>
+      
+
+      <ScrollAnimation direction="bottomToTop" >
+        <div className="text-1 text-2">
+          <h2>Our Achievements</h2>
+          <h3>Student Support</h3>
+          <p>
+            At Little Learners Academy, we are committed to providing a
+            supportive and nurturing environment that meets the unique needs of
+            each student. Our student support services include
+          </p>
+        </div>
+      </ScrollAnimation>
+
+      <ScrollAnimation direction="bottomToTop" >
         <div className="about-image-div">
           <ImageWithPlaceholder
-            src={photo7}
+            src={sps}
             placeholder={placeholder}
-            alt="students-image"
+            alt="teacher"
             className="about-image"
           />
         </div>
-        <div className="about-image-div">
-          <ImageWithPlaceholder
-            src={celebration}
-            placeholder={placeholder}
-            alt="students-image"
-            className="about-image"
-          />
-        </div>
-      </div>
-      <div className="celebration">
-        <div className="celebration-card celebration-bg-1">
-          <ImageWithPlaceholder
-            src={img_1}
-            placeholder={placeholder}
-            alt="sports-day"
-            className=""
-          />
-          <h4>Annual Sports Day</h4>
-          <p>
-            A day filled with friendly competition, team spirit, and
-            sportsmanship
-          </p>
-        </div>
-        <div className="celebration-card celebrati1on-bg-2">
-          <ImageWithPlaceholder
-            src={img_2}
-            placeholder={placeholder}
-            alt="sports-day"
-            className=""
-          />
-          <h4>Cultural Festivals</h4>
-          <p>
-            Celebrations of diverse cultural festivals, promoting cultural
-            exchange and appreciation.
-          </p>
-        </div>
-        <div className="celebration-card celebration-bg-1">
-          <ImageWithPlaceholder
-            src={img_3}
-            placeholder={placeholder}
-            alt="sports-day"
-            className=""
-          />
-          <h4>Art Exhibitions</h4>
-          <p>
-            Showcasing our students' artistic talents through exhibitions and
-            displays.
-          </p>
-        </div>
-        <div className="celebration-card celebration-bg-1">
-          <ImageWithPlaceholder
-            src={img_4}
-            placeholder={placeholder}
-            alt="sports-day"
-            className=""
-          />
-          <h4>Science Fair</h4>
-          <p>
-            A platform for budding scientists to present their innovative
-            projects and experiments.
-          </p>
-        </div>
-        <div className="celebration-card celebrati1on-bg-2 ">
-          <ImageWithPlaceholder
-            src={img_5}
-            placeholder={placeholder}
-            alt="sports-day"
-            className=""
-          />
-          <h4>International Day</h4>
-          <p>
-            A vibrant celebration of our diverse community, embracing cultures
-            from around the world.
-          </p>
-        </div>
-        <div className="celebration-card celebrati1on-bg-1">
-          <ImageWithPlaceholder
-            src={img_6}
-            placeholder={placeholder}
-            alt="sports-day"
-            className=""
-          />
-          <h4>Graduation Ceremony</h4>
-          <p>
-            A significant milestone as our Kindergarten students prepare to
-            embark on their academic journey.
-          </p>
-        </div>
-      </div>
-      <div className="text-1 text-2">
-        <h2>Our Achievements</h2>
-        <h3>Student Support</h3>
-        <p>
-          At Little Learners Academy, we are committed to providing a supportive
-          and nurturing environment that meets the unique needs of each student.
-          Our student support services include
-        </p>
-      </div>
-      <div className="about-image-div">
-        
-        <ImageWithPlaceholder
-          src={sps}
-          placeholder={placeholder}
-          alt="teacher"
-          className="about-image"
-        />
-      </div>
+      </ScrollAnimation>
+
       <div className="clubs">
         <Carousel showDots={true} responsive={responsive2}>
           <div className="club-card">
@@ -281,14 +284,17 @@ const Studentlife = () => {
           </div>
         </Carousel>
       </div>
-      <div className="about-image-div">
-        <ImageWithPlaceholder
-          src={sps2}
-          placeholder={placeholder}
-          alt="students-image"
-          className="about-image"
-        />
-      </div>
+
+      <ScrollAnimation direction="rightToLeft" >
+        <div className="about-image-div">
+          <ImageWithPlaceholder
+            src={sps2}
+            placeholder={placeholder}
+            alt="students-image"
+            className="about-image"
+          />
+        </div>
+      </ScrollAnimation>
     </div>
   );
 };

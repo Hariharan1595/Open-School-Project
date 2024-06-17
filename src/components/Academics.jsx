@@ -10,6 +10,7 @@ import photo12 from "../assets/images/182A0902.jpeg";
 import ImageWithPlaceholder from "./ImageWithPlaceholder";
 import placeholder from "../assets/images/placeholder-image.png";
 import p_placeholder from "../assets/images/pp-placeholder.png";
+import ScrollAnimation from "./ScrollAnimation";
 
 import { FacultyData } from "../data";
 
@@ -72,25 +73,27 @@ const Academics = () => {
   ));
 
   return (
-    <div className="academics">
-      <h3>CURRICULUM OVERVIEW</h3>
-      <p>
-        Our curriculum blends academic excellence with holistic development,
-        fostering critical thinking and creativity. It emphasizes core subjects
-        while integrating 21st-century skills and real-world experiences.
-        Through differentiated instruction and personalized support, we ensure
-        every student reaches their full potential. Regular updates reflect best
-        practices, preparing students to thrive in a rapidly changing world.
-      </p>
-      
+    <ScrollAnimation direction="bottomToTop">
+      <div className="academics">
+        <h3>CURRICULUM OVERVIEW</h3>
+        <p>
+          Our curriculum blends academic excellence with holistic development,
+          fostering critical thinking and creativity. It emphasizes core
+          subjects while integrating 21st-century skills and real-world
+          experiences. Through differentiated instruction and personalized
+          support, we ensure every student reaches their full potential. Regular
+          updates reflect best practices, preparing students to thrive in a
+          rapidly changing world.
+        </p>
 
-      <div className="profile">
-        <h2>FACULTY PROFILE</h2>
-        <Carousel showDots={true} responsive={responsive}>
-          {product}
-        </Carousel>
+        <div className="profile">
+          <h2>FACULTY PROFILE</h2>
+          <Carousel showDots={true} responsive={responsive}>
+            {product}
+          </Carousel>
+        </div>
       </div>
-    </div>
+    </ScrollAnimation>
   );
 };
 

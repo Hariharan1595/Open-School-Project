@@ -10,17 +10,17 @@
 }
 
 .question {
-  font-family: "Jockey One", sans-serif;
-  font-size: 35px;
-  font-weight: 400;
+  
+  font-size: 2rem;
+  font-weight: 200;
   color: #00b3ff;
   text-align: center;
 }
 .answer {
-  font-family: "Jockey One", sans-serif;
-  font-size: 35px;
-  font-weight: 400;
-  line-height: 40px;
+
+ font-size: 2rem;
+  font-weight: 200;
+  
   text-align: center;
   overflow-y: hidden;
 }
@@ -28,6 +28,7 @@
 @media only screen and (max-width: 480px) {
   /* Additional styles for mobile phones */
   .faqbox {
+    
     max-width: 80%;
     margin: 10px auto;
     padding: 10px;
@@ -36,14 +37,15 @@
     box-shadow: 0px 0px 2px 2px rgb(182, 182, 182);
   }
 
-  .question {
-    font-size: 12px;
-  }
+
   .answer {
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 300;
-    line-height: 20.5px;
+    
     text-align: center;
+  }
+  .question{
+    font-size: 1rem;
   }
 }
 
@@ -57,13 +59,11 @@
     box-shadow: 0px 0px 4px 4px rgb(182, 182, 182);
   }
 
-  .question {
-    font-size: 12px;
-  }
+  
   .answer {
-    font-size: 12px;
+   
     font-weight: 300;
-    line-height: 15.5px;
+   
     text-align: center;
   }
 }
@@ -79,14 +79,15 @@
     box-shadow: 0px 0px 4px 4px rgb(182, 182, 182);
   }
 
-  .question {
-    font-size: 15px;
-  }
+
   .answer {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25.5px;
+    font-size: 1rem;
+    font-weight: 300;
+    
     text-align: center;
+  }
+  .question{
+    font-size: 1rem;
   }
 }
 
@@ -102,13 +103,11 @@
     box-shadow: 0px 0px 8px 8px rgb(182, 182, 182);
   }
 
-  .question {
-    font-size: 21px;
-  }
+  
   .answer {
-    font-size: 21px;
+
     font-weight: 400;
-    line-height: 25.5 px;
+    
     text-align: center;
   }
 }
@@ -124,13 +123,11 @@
     box-shadow: 0px 0px 8px 8px rgb(182, 182, 182);
   }
 
-  .question {
-    font-size: 25px;
-  }
+  
   .answer {
-    font-size: 25px;
+  
     font-weight: 400;
-    line-height: 35.5 px;
+    
     text-align: center;
   }
 }

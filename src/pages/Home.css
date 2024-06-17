@@ -11,10 +11,11 @@
 }
 
 .heading {
-  color: white;
+  color: rgb(253, 64, 136);
   padding: 5px;
-  -webkit-text-stroke: 1.7px black;
+  /* -webkit-text-stroke: 1.5px black; */
 }
+
 .blue-text {
   color: #49b3ff;
 }
@@ -25,10 +26,10 @@
 }
 .banner-image img {
   width: 100%;
-  
 }
-.heading-span{
+.heading-span {
   color: #49b3ff;
+  -webkit-text-stroke: white;
 }
 .benefits-section {
   display: flex;
@@ -104,7 +105,6 @@
 @media (min-width: 1024px) and (max-width: 1440px) {
   .heading {
     font-size: 40px;
-    -webkit-text-stroke: 1.3px black;
   }
   .benefits-section img {
     margin: 30px 0px 15px 0px;
@@ -151,7 +151,6 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .heading {
     font-size: 25px;
-    -webkit-text-stroke: 0.9px black;
   }
   .benefits-section img {
     margin: 20px 0px 10px 0px;
@@ -186,7 +185,6 @@
 @media (max-width: 767px) {
   .heading {
     font-size: 15px;
-    -webkit-text-stroke: 0.5px black;
   }
 
   .benefits-section img {

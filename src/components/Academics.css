@@ -3,6 +3,7 @@
 .academics {
   padding: 0 2rem;
   margin: 1rem auto;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 .academics a {
@@ -28,9 +29,9 @@
   text-align: center;
   width: 90%;
   margin: 1rem auto;
-  font-size: 2rem;
+  font-size: 1.3rem;
   line-height: 1.4;
-  font-family: "Judson", serif;
+ 
 }
 .profile {
   max-width: 1280px;

@@ -1,3 +1,8 @@
+.gallery-page{
+  overflow: hidden;
+}
+
+
 .images-section{
   max-width: 1840px;
   margin: 0px auto;

@@ -9,90 +9,76 @@ import Learn_6 from "../assets/images/DSC_5086.jpeg";
 
 import placeholder from "../assets/images/placeholder-image.png";
 import ImageWithPlaceholder from "./ImageWithPlaceholder";
-
+import ScrollAnimation from "./ScrollAnimation";
 
 const Features = () => {
+  const featureData = [
+    {
+      src: Learn_1,
+      title: "Language Arts",
+      description: "Reading, writing, storytelling, and communication skills.",
+    },
+    {
+      src: Learn_2,
+      title: "Mathematics",
+      description:
+        "Number sense, basic operations, problem-solving, and logic.",
+    },
+    {
+      src: Learn_3,
+      title: "Workshops",
+      description:
+        "Exploring the natural world through hands-on experiments and investigations.",
+    },
+    {
+      src: Learn_4,
+      title: "Social Studies",
+      description:
+        "Cultivating an understanding of diverse cultures and communities.",
+    },
+    {
+      src: Learn_5,
+      title: "Arts and Crafts",
+      description:
+        "Encouraging creativity through various art forms and crafts.",
+    },
+    {
+      src: Learn_6,
+      title: "Physical Education",
+      description: "Promoting physical fitness, coordination, and teamwork.",
+    },
+  ];
+
   return (
     <div className="features">
-      <div className="features-text">
-        <h2>Our Features</h2>
-        <h3>What Students Learn</h3>
-        <p>
-          At Little Learners Academy, we strive to cultivate a love for learning
-          and equip children with essential skills for their future success. Our
-          academic programs cover a wide range of subjects, allowing students to
-          develop a strong foundation and discover their interests. Some key
-          areas of learning include
-        </p>
-      </div>
+      <ScrollAnimation direction="bottomToTop">
+        <div className="features-text">
+          <h2>Our Features</h2>
+          <h3>What Students Learn</h3>
+          <p>
+            At Little Learners Academy, we strive to cultivate a love for
+            learning and equip children with essential skills for their future
+            success. Our academic programs cover a wide range of subjects,
+            allowing students to develop a strong foundation and discover their
+            interests. Some key areas of learning include
+          </p>
+        </div>
+      </ScrollAnimation>
       <div className="features-img">
-        <div className="features-card">
-          <span className="shape"></span>
-          <ImageWithPlaceholder
-            src={Learn_1}
-            placeholder={placeholder}
-            alt=""
-            className=""
-          />
-
-          <h4>Language Arts</h4>
-          <p>Reading, writing, storytelling, and communication skills.</p>
-        </div>
-        <div className="features-card">
-          <ImageWithPlaceholder
-            src={Learn_2}
-            placeholder={placeholder}
-            alt=""
-            className=""
-          />
-          <h4>Mathematics</h4>
-          <p>Number sense, basic operations, problem-solving, and logic.</p>
-        </div>
-        <div className="features-card">
-          <ImageWithPlaceholder
-            src={Learn_3}
-            placeholder={placeholder}
-            alt=""
-            className=""
-          />
-          <h4>workshops</h4>
-          <p>
-            Exploring the natural world through hands-on experiments and
-            investigations.
-          </p>
-        </div>
-        <div className="features-card">
-          <ImageWithPlaceholder
-            src={Learn_4}
-            placeholder={placeholder}
-            alt=""
-            className=""
-          />
-          <h4>Social Studies</h4>
-          <p>
-            Cultivating an understanding of diverse cultures and communities.
-          </p>
-        </div>
-        <div className="features-card">
-          <ImageWithPlaceholder
-            src={Learn_5}
-            placeholder={placeholder}
-            alt=""
-            className=""
-          />
-          <h4>Arts and Crafts</h4>
-          <p>Encouraging creativity through various art forms and crafts.</p>
-        </div>
-        <div className="features-card">
-          <ImageWithPlaceholder
-            src={Learn_6}
-            placeholder={placeholder}
-            alt=""
-            className=""
-          />
-          <h4>Physical Education</h4>
-          <p>Promoting physical fitness, coordination, and teamwork.</p>
-        </div>
+        {featureData.map((feature, index) => (
+          <ScrollAnimation key={index} direction="leftToRight" index={index}>
+            <div className="features-card">
+              <ImageWithPlaceholder
+                src={feature.src}
+                placeholder={placeholder}
+                alt=""
+                className=""
+              />
+              <h4>{feature.title}</h4>
+              <p>{feature.description}</p>
+            </div>
+          </ScrollAnimation>
+        ))}
       </div>
     </div>
   );

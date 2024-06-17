@@ -90,9 +90,7 @@ const Navbar = () => {
           <li>
             <Link to="/admissions">ADMISSION</Link>
           </li>
-          <li>
-            <Link to="/student-life">STUDENT LIFE</Link>
-          </li>
+         
           <li>
             <Link to="/services">SERVICES</Link>
           </li>

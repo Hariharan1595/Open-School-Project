@@ -39,6 +39,7 @@ import p2 from "../assets/images/photo14.jpeg";
 
 import placeholder from "../assets/images/placeholder-image.png";
 import ImageWithPlaceholder from "../components/ImageWithPlaceholder";
+import ScrollAnimation from "../components/ScrollAnimation";
 
 const images = [
   photo1,
@@ -103,458 +104,468 @@ const ImageGallery = () => {
 
   return (
     <div className="gallery-page">
-      <div className="images-section">
-        <div className="service-title">Academics</div>
-        {!academics && (
-          <Carousel showDots={true} responsive={responsive}>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo1}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo2}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo3}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo4}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo5}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo6}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo7}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo8}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo9}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="view-more-section">
-              <ImageWithPlaceholder
-                src={photo8}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo9}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo1}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <div className="blur-box">
+      <ScrollAnimation direction="bottomToTop">
+        <div className="images-section">
+          <div className="service-title">Academics</div>
+          {!academics && (
+            <Carousel showDots={true} responsive={responsive}>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo1}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo2}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo3}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
                 <ImageWithPlaceholder
                   src={photo4}
                   placeholder={placeholder}
-                  className="blur-image"
+                  className="about-image"
                 />
-                <div
-                  className="view-more-text"
-                  onClick={() => handleOpenSection(setAcademics, academics)}
-                >
-                  View More..
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo5}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo6}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo7}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo8}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo9}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="view-more-section">
+                <ImageWithPlaceholder
+                  src={photo8}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo9}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo1}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <div className="blur-box">
+                  <ImageWithPlaceholder
+                    src={photo4}
+                    placeholder={placeholder}
+                    className="blur-image"
+                  />
+                  <div
+                    className="view-more-text"
+                    onClick={() => handleOpenSection(setAcademics, academics)}
+                  >
+                    View More..
+                  </div>
                 </div>
               </div>
-            </div>
-          </Carousel>
-        )}
-        {academics && <Generateimages />}
-      </div>
-      <div className="images-section">
-        <div className="service-title">Extracurricular</div>
-        {!extracurricular && (
-          <Carousel showDots={true} responsive={responsive}>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo10}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo11}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo12}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo13}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo14}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="view-more-section">
-              <ImageWithPlaceholder
-                src={photo10}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo11}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo12}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
+            </Carousel>
+          )}
+          {academics && <Generateimages />}
+        </div>
+      </ScrollAnimation>
+      <ScrollAnimation direction="bottomToTop">
+        <div className="images-section">
+          <div className="service-title">Extracurricular</div>
+          {!extracurricular && (
+            <Carousel showDots={true} responsive={responsive}>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo10}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo11}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo12}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo13}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo14}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="view-more-section">
+                <ImageWithPlaceholder
+                  src={photo10}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo11}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo12}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
 
-              <div className="blur-box">
-                <ImageWithPlaceholder
-                  src={photo14}
-                  placeholder={placeholder}
-                  className="blur-image"
-                />
-                <div
-                  className="view-more-text"
-                  onClick={() =>
-                    handleOpenSection(setExtracurricular, extracurricular)
-                  }
-                >
-                  View More..
+                <div className="blur-box">
+                  <ImageWithPlaceholder
+                    src={photo14}
+                    placeholder={placeholder}
+                    className="blur-image"
+                  />
+                  <div
+                    className="view-more-text"
+                    onClick={() =>
+                      handleOpenSection(setExtracurricular, extracurricular)
+                    }
+                  >
+                    View More..
+                  </div>
                 </div>
               </div>
-            </div>
-          </Carousel>
-        )}
-        {extracurricular && <Generateimages />}
-      </div>
-      <div className="images-section">
-        <div className="service-title">Programs</div>
-        {!programs && (
-          <Carousel showDots={true} responsive={responsive}>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo1}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo2}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo3}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo4}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo5}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo6}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo7}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo8}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo9}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="view-more-section">
-              <ImageWithPlaceholder
-                src={photo8}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo9}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo1}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <div className="blur-box">
+            </Carousel>
+          )}
+          {extracurricular && <Generateimages />}
+        </div>
+      </ScrollAnimation>
+      <ScrollAnimation direction="bottomToTop">
+        <div className="images-section">
+          <div className="service-title">Programs</div>
+          {!programs && (
+            <Carousel showDots={true} responsive={responsive}>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo1}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo2}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo3}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
                 <ImageWithPlaceholder
                   src={photo4}
                   placeholder={placeholder}
-                  className="blur-image"
+                  className="about-image"
                 />
-                <div
-                  className="view-more-text"
-                  onClick={() => handleOpenSection(setPrograms, programs)}
-                >
-                  View More..
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo5}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo6}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo7}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo8}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo9}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="view-more-section">
+                <ImageWithPlaceholder
+                  src={photo8}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo9}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo1}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <div className="blur-box">
+                  <ImageWithPlaceholder
+                    src={photo4}
+                    placeholder={placeholder}
+                    className="blur-image"
+                  />
+                  <div
+                    className="view-more-text"
+                    onClick={() => handleOpenSection(setPrograms, programs)}
+                  >
+                    View More..
+                  </div>
                 </div>
               </div>
-            </div>
-          </Carousel>
-        )}
-        {programs && <Generateimages />}
-      </div>
-      <div className="images-section">
-        <div className="service-title">Workshops & Events</div>
-        {!wrkEvents && (
-          <Carousel showDots={true} responsive={responsive}>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo10}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo11}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo12}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo13}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo14}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="view-more-section">
-              <ImageWithPlaceholder
-                src={photo10}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo11}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo12}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <div className="blur-box">
+            </Carousel>
+          )}
+          {programs && <Generateimages />}
+        </div>
+      </ScrollAnimation>
+      <ScrollAnimation direction="bottomToTop">
+        <div className="images-section">
+          <div className="service-title">Workshops & Events</div>
+          {!wrkEvents && (
+            <Carousel showDots={true} responsive={responsive}>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo10}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo11}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo12}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo13}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
                 <ImageWithPlaceholder
                   src={photo14}
                   placeholder={placeholder}
-                  className="blur-image"
+                  className="about-image"
                 />
-                <div
-                  className="view-more-text"
-                  onClick={() => handleOpenSection(setWrkEvents, wrkEvents)}
-                >
-                  View More..
+              </div>
+              <div className="view-more-section">
+                <ImageWithPlaceholder
+                  src={photo10}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo11}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo12}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <div className="blur-box">
+                  <ImageWithPlaceholder
+                    src={photo14}
+                    placeholder={placeholder}
+                    className="blur-image"
+                  />
+                  <div
+                    className="view-more-text"
+                    onClick={() => handleOpenSection(setWrkEvents, wrkEvents)}
+                  >
+                    View More..
+                  </div>
                 </div>
               </div>
-            </div>
-          </Carousel>
-        )}
-        {wrkEvents && <Generateimages />}
-      </div>
-      <div className="images-section">
-        <div className="service-title">Videos</div>
-        {!videos && (
-          <Carousel showDots={true} responsive={responsive}>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo1}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo2}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo3}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo4}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo5}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo6}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo7}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo8}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="about-image-div-gallery">
-              <ImageWithPlaceholder
-                src={photo9}
-                placeholder={placeholder}
-                className="about-image"
-              />
-            </div>
-            <div className="view-more-section">
-              <ImageWithPlaceholder
-                src={photo8}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo9}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <ImageWithPlaceholder
-                src={photo1}
-                placeholder={placeholder}
-                className="view-more-image"
-              />
-              <div className="blur-box">
+            </Carousel>
+          )}
+          {wrkEvents && <Generateimages />}
+        </div>
+      </ScrollAnimation>
+      <ScrollAnimation direction="bottomToTop">
+        <div className="images-section">
+          <div className="service-title">Videos</div>
+          {!videos && (
+            <Carousel showDots={true} responsive={responsive}>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo1}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo2}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo3}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
                 <ImageWithPlaceholder
                   src={photo4}
                   placeholder={placeholder}
-                  className="blur-image"
+                  className="about-image"
                 />
-                <div
-                  className="view-more-text"
-                  onClick={() => handleOpenSection(setVideos, videos)}
-                >
-                  View More..
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo5}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo6}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo7}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo8}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="about-image-div-gallery">
+                <ImageWithPlaceholder
+                  src={photo9}
+                  placeholder={placeholder}
+                  className="about-image"
+                />
+              </div>
+              <div className="view-more-section">
+                <ImageWithPlaceholder
+                  src={photo8}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo9}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <ImageWithPlaceholder
+                  src={photo1}
+                  placeholder={placeholder}
+                  className="view-more-image"
+                />
+                <div className="blur-box">
+                  <ImageWithPlaceholder
+                    src={photo4}
+                    placeholder={placeholder}
+                    className="blur-image"
+                  />
+                  <div
+                    className="view-more-text"
+                    onClick={() => handleOpenSection(setVideos, videos)}
+                  >
+                    View More..
+                  </div>
                 </div>
               </div>
-            </div>
-          </Carousel>
-        )}
-        {videos && <Generateimages />}
-      </div>
+            </Carousel>
+          )}
+          {videos && <Generateimages />}
+        </div>
+      </ScrollAnimation>
     </div>
   );
 };

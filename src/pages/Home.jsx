@@ -1,6 +1,7 @@
 import React from "react";
 import bannerImage from "../assets/images/banner2.jpeg";
 import "./Home.css";
+import ScrollAnimation from "../components/ScrollAnimation";
 
 import Card1 from "../components/Card1";
 import { serviceData } from "../data";
@@ -21,8 +22,8 @@ const Home = () => {
   return (
     <div className="home">
       <h1 className="heading">
-        Where young minds blossom and{" "}
-        <span className="heading-span">Dreams Take Flight</span>
+        Where young minds blossom{" "}
+        <span className="heading-span"> and Dreams Take Flight</span>
       </h1>
       <div className="banner-image">
         <ImageWithPlaceholder
@@ -32,82 +33,77 @@ const Home = () => {
         />
       </div>
 
-      <div className="subsection">
-        <div className="box">Children Deserve Bright Future</div>
-        <div className="title">Our Benefits</div>
-        <div className="para1">
-          With a dedicated team of experienced educators, state-of-the-art
-          facilities, and a comprehensive curriculum, we aim to lay a strong
-          foundation for your child's future.
+      <ScrollAnimation direction="bottomToTop">
+        <div className="subsection">
+          <div className="box">Children Deserve Bright Future</div>
+          <div className="title">Our Benefits</div>
+          <div className="para1">
+            With a dedicated team of experienced educators, state-of-the-art
+            facilities, and a comprehensive curriculum, we aim to lay a strong
+            foundation for your child's future.
+          </div>
         </div>
-      </div>
+      </ScrollAnimation>
+
       <div className="clubs1">
-        <div className="club-card1">
-          <img src={club_icon_1} alt="" className="club-icon" />
-          <h4>Play-Based Learning</h4>
-          <p>
-            We believe in the power of play to foster creativity,
-            problem-solving skills, and imagination.
-          </p>
-        </div>
-        <div className="club-card1">
-          <img src={club_icon_2} alt="" className="club-icon" />
-          <h4>Individualized Attention</h4>
-          <p>
-            Our small class sizes enable personalized attention, catering to
-            each child's unique needs.
-          </p>
-        </div>
-        <div className="club-card1">
-          <img src={club_icon_3} alt="" className="club-icon" />
-          <h4>Parent Involvement</h4>
-          <p>
-            We foster a strong parent-school partnership to ensure seamless
-            communication and collaboration.
-          </p>
-        </div>
-        <div className="club-card1">
-          <img src={club_icon_4} alt="" className="club-icon" />
-          <h4>Alumni Achievements</h4>
-          <p>
-            Our small class sizes enable personalized attention, catering to
-            each child's unique needs.
-          </p>
-        </div>
-        <div className="club-card1">
-          <img src={club_icon_5} alt="" className="club-icon" />
-          <h4>Science Club</h4>
-          <p>
-            The science club allows young scientists to explore the wonders of
-            science through fun experiments and hands-on learning.
-          </p>
-        </div>
-        <div className="club-card1">
-          <img src={club_icon_6} alt="" className="club-icon" />
-          <h4>Cooking and Culinary Arts</h4>
-          <p>
-            Cooking classes introduce students to the joys of preparing and
-            tasting delicious and healthy meals.
-          </p>
-        </div>
+        {[
+          club_icon_1,
+          club_icon_2,
+          club_icon_3,
+          club_icon_4,
+          club_icon_5,
+          club_icon_6,
+        ].map((icon, index) => (
+          <ScrollAnimation key={index} direction="leftToRight" index={index}>
+            <div className="club-card1">
+              <img src={icon} alt="" className="club-icon" />
+              <h4>
+                {
+                  [
+                    "Play-Based Learning",
+                    "Individualized Attention",
+                    "Parent Involvement",
+                    "Alumni Achievements",
+                    "Science Club",
+                    "Cooking and Culinary Arts",
+                  ][index]
+                }
+              </h4>
+              <p>
+                {
+                  [
+                    "We believe in the power of play to foster creativity, problem-solving skills, and imagination.",
+                    "Our small class sizes enable personalized attention, catering to each child's unique needs.",
+                    "We foster a strong parent-school partnership to ensure seamless communication and collaboration.",
+                    "Our small class sizes enable personalized attention, catering to each child's unique needs.",
+                    "The science club allows young scientists to explore the wonders of science through fun experiments and hands-on learning.",
+                    "Cooking classes introduce students to the joys of preparing and tasting delicious and healthy meals.",
+                  ][index]
+                }
+              </p>
+            </div>
+          </ScrollAnimation>
+        ))}
       </div>
-      <div className="subsection">
-        <div className="box">Services</div>
-        <div className="title">Our Services</div>
-      </div>
+
+      <ScrollAnimation direction="bottomToTop">
+        <div className="subsection">
+          <div className="box">Services</div>
+          <div className="title">Our Services</div>
+        </div>
+      </ScrollAnimation>
+
       <div className="service-section">
-        <Card1
-          title={serviceData[0].title}
-          placeholder={placeholder}
-          image={board}
-          content={serviceData[0].content}
-        />
-        <Card1
-          title={serviceData[1].title}
-          placeholder={placeholder}
-          image={students}
-          content={serviceData[1].content}
-        />
+        {serviceData.slice(0, 2).map((service, index) => (
+          <ScrollAnimation key={index} direction="leftToRight" index={index}>
+            <Card1
+              title={service.title}
+              placeholder={placeholder}
+              image={index === 0 ? board : students}
+              content={service.content}
+            />
+          </ScrollAnimation>
+        ))}
       </div>
 
       {/* <div className="newsletter">
