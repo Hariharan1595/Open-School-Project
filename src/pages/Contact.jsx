@@ -70,42 +70,7 @@ const Contact = () => {
           <span className="send">{result}</span>
         </div>
 
-        <div className="trustee-info">
-          <div className="contact-text">
-            <h2>TRUSTEES</h2>
-          </div>
-          <ul className="name-list">
-            <li>
-              The Founder of the TRUST has appointed the following persons to
-              hold the office of the Trust as below:{" "}
-            </li>
-            <li>
-              <h3>Mrs. N. Sangeetha</h3>
-              <br />
-              Aged 43 Years
-              <br />
-              Founder & Managing Trustee <br />
-              W/o Joe Vasanth , No.2A, Gandhi Road,
-              <br /> Sadanandapuram., New Perungalathur,
-              <br /> Chengalpattu, District, PIN – 600 063.
-            </li>
-            <li>
-              <h3>Mr. Joe Vasanth</h3> <br />
-              Aged 43 Years <br />
-              Secretary & Trustee <br />
-              S/o. Berchmans, No.2A, Gandhi Road,
-              <br /> Sadanandapuram., New Perungalathur,
-              <br /> Chengalpattu, District, PIN – 600 063.
-            </li>
-            <li>
-              <h3>Mr. Charles Franco J </h3>
-              <br /> No 3 G1 Platina Temple,Muthulakshmi Avenue 3rd Street,
-              <br /> Pamban Swamigal Salai , Chitlapakkam <br />
-              Tamil Nadu - 600064
-            </li>
-          </ul>
-        </div>
-
+        
         <button className="location" onClick={handleLocationClick}>
           Location
         </button>
