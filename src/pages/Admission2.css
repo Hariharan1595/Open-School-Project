@@ -21,7 +21,7 @@
   align-items: center; */
   border-radius: 8px;
   border: 2px solid black;
-  
+
   font-size: 18px;
   font-weight: 500;
   display: inline-block;
@@ -37,7 +37,6 @@
   gap: 14px;
 }
 .title {
-  
   font-weight: 700;
   font-size: 48px;
 
@@ -46,7 +45,7 @@
 .para {
   width: 499px;
 
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 
   font-size: 20px;
   font-weight: 500;
@@ -60,19 +59,16 @@
 }
 
 .subsection {
-  font-family: 'Times New Roman', Times, serif;
-  margin:30px auto;
+  font-family: "Times New Roman", Times, serif;
+  margin: 30px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  width: 50%;
 }
 .para1 {
   max-width: 80%;
-
-  
 
   font-size: 20px;
   font-weight: 500;
@@ -161,12 +157,17 @@
     padding-top: 100px 0px;
   }
 }
+@media (min-width: 1025px) {
+  .subsection {
+    width: 50%;
+  }
+}
 @media (max-width: 768px) {
   .design {
     width: 100px;
   }
   .box {
-        height: 20px;
+    height: 20px;
     padding: 5px 10px 5px 10px;
     font-size: 15px;
     font-weight: 500;
@@ -197,9 +198,8 @@
   .para1 {
     max-width: 499px;
 
-   font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 
-    font-size: 15px;
     font-weight: 500;
     line-height: 30px;
     text-align: center;
@@ -264,7 +264,6 @@
     margin: 20px auto;
   }
   .box {
-    
     height: 15px;
     padding: 3px 7px 3px 7px;
     font-size: 10px;
@@ -274,10 +273,9 @@
   }
   .para1 {
     max-width: 499px;
-    font-family: "outfit", sans-serif;
-    font-size: 10px;
+
     font-weight: 500;
-    line-height: 16px;
+    
     text-align: center;
     padding: 0px 30px;
   }

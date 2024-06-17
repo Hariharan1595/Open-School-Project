@@ -1,4 +1,4 @@
-.react-multi-carousel-item{
+.react-multi-carousel-item {
   padding-bottom: 1rem;
 }
 .student-life {
@@ -13,7 +13,7 @@
   width: 45rem;
   letter-spacing: 1px;
   margin: 2rem auto;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
 .text-1 h2 {
@@ -23,14 +23,14 @@
   margin: auto;
   border-radius: 5px;
   color: #00b3ff;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   letter-spacing: 1px;
   font-weight: 400;
 }
 .text-1 h3 {
   font-size: 2rem;
   margin: 1rem;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: #00b3ff;
   letter-spacing: 1px;
   font-weight: 500;
@@ -40,7 +40,7 @@
 
   max-width: 1440px;
 }
-.clubs1{
+.clubs1 {
   margin: 3rem auto;
   display: flex;
   flex-wrap: wrap;
@@ -48,10 +48,10 @@
   align-items: center;
   row-gap: 40px;
   gap: 30px;
-  padding:10px;
+  padding: 10px;
 }
-.club-card1{
-  width: 20rem;
+.club-card1 {
+  max-width: 20rem;
   margin: 1rem;
   border: 2px solid black;
   padding: 2rem;
@@ -63,16 +63,14 @@
 .club-card1 h4 {
   margin: 1rem auto;
   font-size: 1.2rem;
-  
 }
 .club-card1 p {
-  
   margin: 1rem 0;
   line-height: 1.3;
 }
 .club-card {
-  font-family: 'Times New Roman', Times, serif;
-  width: 16rem;
+  font-family: "Times New Roman", Times, serif;
+  max-width: 16rem;
   height: 15rem;
   border: 2px solid black;
   padding: 2rem;
@@ -84,10 +82,8 @@
 .club-card h4 {
   margin: 1rem auto;
   font-size: 1.2rem;
-  
 }
 .club-card p {
-  
   margin: 1rem 0;
   line-height: 1.3;
 }
@@ -95,7 +91,7 @@
   width: 50px;
 }
 .celebration {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 3rem auto;
   display: flex;
   justify-content: center;
@@ -134,16 +130,15 @@
   letter-spacing: 1px;
 }
 .celebration-card p {
-  
   line-height: 1.3;
 }
 .text-2 h2 {
   width: 15rem;
 }
 
-@media (max-width:800px){
-  .club-card{
-    width: 15rem;
+@media (max-width: 800px) {
+  .club-card {
+    max-width: 15rem;
     margin: 0 auto;
   }
 }
@@ -156,13 +151,13 @@
     font-size: 1.5rem;
   }
 }
-@media (max-width:426px){
-  .club-card{
-    width: 13rem;
-    margin: 0 auto;
+@media (max-width: 426px) {
+  .club-card {
+    max-width: 13rem;
+   
   }
-  .club-card1{
-    width: 13rem;
-    margin: 0 auto;
+  .club-card1 {
+    max-width: 13rem;
+    
   }
 }
