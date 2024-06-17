@@ -6,7 +6,7 @@ import processImg from "../assets/images/Sub Container.png";
 import photo5 from "../assets/images/photo6.jpeg";
 import photo3 from "../assets/images/photo4.jpeg";
 import ScrollAnimation from "../components/ScrollAnimation";
-import Studentlife from "./Studentlife";
+
 
 const Admission = () => {
   return (
@@ -80,7 +80,7 @@ const Admission = () => {
         </div>
       </div> */}
 
-      <Studentlife />
+      
     </>
   );
 };
