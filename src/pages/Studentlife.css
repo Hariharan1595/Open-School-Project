@@ -106,7 +106,7 @@
 }
 .celebration-card {
   margin: 1rem;
-  width: 16rem;
+  max-width: 16rem;
   padding: 2rem;
   border: 1px solid black;
   border-radius: 10px;
